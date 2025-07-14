@@ -1,0 +1,121 @@
+[
+    {
+        "id": "n1",
+        "name": "Structure & Configuration",
+        "parentId": null
+    },
+
+{
+        "id": "n2",
+        "name": "Overall shape (Penguin)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n3",
+        "name": "Spindle shape and formation of microbubbles.",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n4",
+        "name": "Symmetry: Symmetry of the body contour along the axis",
+        "parentId": "n3",
+	"value":1
+    },
+
+{
+        "id": "n5",
+        "name": "Overall shape (Boxfish)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n6",
+        "name": "Symmetrical box-shaped structure. ",
+        "parentId": "n5"
+    },
+
+{
+        "id": "n7",
+        "name": "Symmetry: Symmetry of the body contour along the axis.",
+        "parentId": "n6",
+	"value":1
+    },
+
+{
+        "id": "n8",
+        "name": "Overall shape (Diatom)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n9",
+        "name": "The transverse corrugated structure along the body.",
+        "parentId": "n8"
+    },
+
+{
+        "id": "n10",
+        "name": "Symmetry: Symmetry of the body contour along the axis.",
+        "parentId": "n9",
+	"value":1
+    },
+
+{
+        "id": "n11",
+        "name": "The shape of the body part (Coconut trunk)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n12",
+        "name": "Conical corrugated structure. ",
+        "parentId": "n11"
+    },
+
+{
+        "id": "n13",
+        "name": "Symmetry: Symmetry of the conical corrugations and the cross section along the axis.",
+        "parentId": "n12",
+	"value":1
+    },
+
+{
+        "id": "n14",
+        "name": "Overall shape (Balanus)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n15",
+        "name": "Conical shape.",
+        "parentId": "n14"
+    },
+
+{
+        "id": "n16",
+        "name": "Symmetry: Symmetry of the conical along the axis.",
+        "parentId": "n15",
+	"value":1
+    },
+
+{
+        "id": "n17",
+        "name": "Shape of the body part (Insect claws)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n18",
+        "name": "Claw structure.",
+        "parentId": "n17"
+    },
+
+{
+        "id": "n19",
+        "name": "Asymmetry: Asymmetry of the claw structure along the axis.",
+        "parentId": "n18",
+	"value":1
+    }
+]

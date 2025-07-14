@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script> 
+    <script src="d3.v7.js"></script> <!--Use it when offline-->
+    <title>Design Method</title>
+</head>
+<body>
+    <img src="../images/mbid-logo.jpg" width="30%" alt="MBID logo">
+     <div id="nav">
+        <ul>
+            <li> <a href='../index.html'>Home</a></li>
+            <li> <a href="../pages/surfaces.html">Surfaces</a></li>
+            <li> <a href="../pages/cellular.html">Cellular Structures</a></li>
+            <li> <a href="../pages/shapes.html">Shapes</a></li>
+            <li> <a href="../pages/cross-sections.html">Cross-sections</a></li>
+            <li> <a href="../pages/user-manual.html">User manual</a> </li>
+        </ul>
+    </div>
+
+
+    <div id = "id">
+        <h2>EXPANDABLE DOMAIN INTEGRTAED <span style="color: red;"> DESIGN</span> (xDID)</h2>
+        <p>MBI<span style="color: red;">D</span> facilitates the combination of biological features from 
+            different functional and structural domains to create <b>multifunctional designs</b>.
+            The system uses <b>tree dendrograms</b> to guide the exploration and integration of features, helping designers 
+            generate structurally coherent and functionally innovative concepts.</p>
+    </div>
+
+
+    <div id ="Overviewpic">
+        <h3>Morphology-<span style="color: red;">driven</span> approach</h3>
+            <p>
+                Biological organisms achieve a vast array of functions through a 
+                combination of their morphology (structure), physiology (how they work), and behavior as depicted in <em>Figure 3</em>. 
+                The MBI<span style="color: red;">D</span> approach, however, specifically 
+                focuses on functions derived from morphological features. We call these <b>embodiment functions</b>.
+            </p>
+        <img src="../images/morphology-driven.jpg" width="75%" alt="Morphology-driven approach">
+        <figcaption>Figure 3. Illustration of the functions performed by biological organisms, which are a combination of morphology, physiology, and behavior. 
+                    MBID focuses on the functions exhibited by the morphological features of biological organisms. (pictures of biological organisms from wikimedia commons)</figcaption>
+
+        <h3>Diversity-<span style="color: red;">enhanced</span></h3>
+        <p>
+            Nature often provides elegant solutions. Distantly related organisms, despite their evolutionary paths, 
+            frequently develop similar structural designs to perform identical functions. 
+            MBI<span style="color: red;">D</span> uses this principle to explore the extensive morphological diversity found across both plant and animal kingdoms. 
+            This broad exploration significantly expands the potential design solutions for various engineering challenges.
+        </p>
+
+    </div>
+
+    <div id ="Overviewpic">
+        <h2>IDEATION <span style="color: red;">SYSTEM</span></h2>
+        <p>
+            The MBID Ideation System is built upon several key components. <em>Figure 4</em> is an illustration
+            describing the key components starting from identification, abstraction & mapping, function-structrue relationship, classification, visualisation, selection and combination.
+        </p>
+        <img src="../images/Overview.jpg" width="85%" alt="MBIDx Overview">
+        <figcaption>Fig 4: Illustration of the key components of the ideation system</figcaption>
+        
+        <h3 style="color: red;">IDENTIFY</h3>
+        <p>
+            Identifying the organisms exhibiting various functions through their 
+            morphological features by drawing information from published articles and case studies in scientific literature.    
+        </p>
+
+        <h3 style="color: red;">ABSTRACT & MAP</h3>
+        <p>
+            Each biological (morphological) feature is meticulously mapped to its corresponding function and the tissue (material) from which it originates. 
+            Furthermore, the embodiment function achieved by a feature is understood as a blend of its integrated structure and its structural strategy (configuration).
+        </p>
+
+        <h3>Function-Structure <span style="color: red;"> Realtionship</span></h3>
+        <p>
+            The embodiment function is a synergistic outcome of an integrated structure and its structural strategy.
+            <em>Figure 5</em> is a schematic illustrating the embodiment function of a lotus leaf in repelling water. 
+            This function results from a combination of micro/nano projections (integrated structure) 
+            on the leaf's surface and the arrangement of these micro/nano structures (structural strategy).     
+        </p>
+        <img src="../images/function_structure_configuration.jpg" width ="60%" alt="function-structure relationship">
+        <figcaption>Fig 5: Lotus leaf's repel water (superhydrophobocity) is a result of the combination of 
+            its integrated micro/nano surface structures and the stratergy (configuration/arrangement) of the micro/nano structures.
+            (pictures of biological organisms from wikimedia commons)
+        </figcaption>
+        <p>
+            <b>Integrated structure</b> refers to the physical description of a multiscale structure. 
+            This includes details like micro/nanostructure, macrostructure, and even the presence of features like wax layers.
+        </p>
+        <p>
+            <b>Structural strategy</b> defines the integrated structural configuration. This encompasses aspects such as the arrangement, packing, 
+            or orientation of micro/nanostructures, symmetry, asymmetry, or tessellation patterns. It also accounts for 
+            changes in structural configuration due to external stimuli, 
+            such as the erection of scales or a change in skin compliance, which occur when other elements interact with the structure.
+            <em>Table 1</em> is an example of the lotus leaf's morphology contributing to its exhibited repel water function.
+        </p>  
+
+        <table>
+            <caption>Table 1: Embodiment function as a combination of integrated structure and structural stratergy</caption>
+            <tr> <!--Row 1 header-->
+                <th>Biological Feature</th>
+                <th>Embodiment Function</th>
+                <th>Integrated Structure</th>
+                <th>Structrual Configuraiton</th>
+            </tr>
+            <tr> <!--Row 2-->
+                <td>Micro/Nano projections (Lotus leaf).</td>
+                <td>Repel Water Droplets.</td>
+                <td>Microstructures with a wax layer and pointed in shape.</td>
+                <td>Arrangement: The random arrangement of micro perturbances.</td>
+            </tr>
+        </table>
+
+        <h3 style="color: red;">CLASSIFY</h3>
+        <p>
+            The biological (morphological) features are identified, abstracted, mapped, 
+            and classified based on their shared geometric characteristics, referred to in this research as <b style="color: red;">Domains</b>. 
+            These Domains represent overarching structural designations that guide the classification process and include: <b>Surfaces, Cellular Structures,
+            Cross-sections, and Shapes</b>
+            The <em>Figure 6</em> illustrates a classification system for biological features, categorizing them into distinct domains based on their primary geometric characteristic or designation.
+            <img src="../images/Classification.jpg" width ="60%" alt="classification">
+            <figcaption>Fig 6: The classification of biological features by their shared or a common geometric characteristic or designation (domains).
+                (pictures of biological organisms from wikimedia commons)
+            </figcaption>
+        </p>
+
+        <p>
+            <h4>Understanding <span style="color: red;">classification:</span></h4>
+            For instance, features whose function arises 
+            from body or skin texture, scales, body coats, or hard outer coverings like composites, tiles, plates, and sandwich panels are classified under the 
+            <span style="color: red;">surfaces domain</span>.
+            The features whose function arises through porous, prismatic, and foam structures arranged in periodic (non-stochastic), 
+            stochastic, or hierarchical tessellated patterns, it falls into the <span style="color: red;">cellular structures domain</span>. 
+    
+            Similarly, the features whose function arises by the overall shape of the body (body contour) or the shape of 
+            a specific body part, the feature is categorized within the <span style="color: red;">shapes domain</span>.    
+    
+            Finally, features whose function is derived from 
+            the cross-section of the body or the cross-section of a particular body part are classified as belonging to the 
+            <span style="color: red;">cross-sections domain</span>.The <em>Table 2</em> is an example of 
+            the abstraction & mapping and classification of the Lotus leaf's morphology.
+        </p>
+
+        <p>
+            <span style="color: red;"><em>Note: The list of Domains is expandable, and additional categories may be introduced as the system evolves.</em></span>
+        </p>
+
+
+        <table>
+            <caption>Table 2: Abstraction and mapping of the lotus leaf's morphology to its embodiment function, 
+                    including integrated structure, structural strategy, feature characteristics, 
+                    tissue/material, and the domain to which it belongs.
+            </caption>
+            <tr> <!--Row 1 header-->
+                <th>Biological Feature</th>
+                <th>Embodiment Function</th>
+                <th>Integrated Structure</th>
+                <th>Structrual Stratergy</th>
+                <th>Biological feature characteristic</th>
+                <th>Tissue/Material</th>
+                <th>Domain</th>
+            </tr>
+            <tr> <!--Row 2-->
+                <td>Micro/Nano projections (Lotus leaf).</td>
+                <td>Repel Water Droplets.</td>
+                <td>Microstructures with a wax layer and pointed in shape.</td>
+                <td>Arrangement: The random arrangement of micro perturbances.</td>
+                <td>Body/Skin texture (Plants)</td>
+                <td>Epidermal tissue (Micro-papillae and epicuticular wax)</td>
+                <td style="color: red;">Surfaces</td>
+            </tr>
+        </table>
+
+        <h4> The challenge of <span style="color: red;">classifying complex biological features</span></h4>
+            <p>
+                Biological features are inherently complex, making their systematic classification into a finite number of distinct domains a significant challenge. 
+                Often, a single biological feature integrates characteristics that, at first glance, seem to belong to multiple domains.
+            </p>
+
+            <p>
+                Consider the kingfisher's beak as an example. Its structure combines a hard outer covering, which aligns with the surfaces domain, and inner cellular bone, clearly belonging to the cellular structures domain. 
+                However, the beak's primary function is derived from its cross-sectional geometry. 
+                Therefore, despite its multi-domain characteristics, it's primarily classified under the cross-sections domain due to this functional emphasis.
+            </p>
+
+            <p>
+                Similarly, features within the shapes domain often arise from a combination of characteristics from both the surfaces and cross-sections domains. 
+                Yet, their classification as "shapes" is driven by the fact that their function primarily stems from the overall shape or contour of the body or a specific part of it.
+            </p>
+
+        <h3 style="color: red;">VISUALISE</h3>
+        <p>
+           The MBI<span style="color: red;">D</span> ideation system currently abstracts, maps, and classifies approximately 60 biological features based on shared geometric characteristics, 
+           referred to as domains. This growing knowledge base, known as <span style="color: red;">BIKSAS</span> (Bio-Inspired Knowledge Acquisition and Simulacrum), is continuously expanding. 
+           To support intuitive exploration, <b>tree dendrograms</b> are used to visualize these features, enabling users to select and combine them to generate multifunctional design concepts.   
+        </p>
+
+        <h3 style="color: red;">SELECT</h3>
+        <p>
+              In nature, multiple features might share similar geometric characteristics and perform similar functions. 
+              For instance, both shark and dolphin skin contribute to drag reduction. To choose among such alternatives (e.g., shark skin vs. dolphin skin for drag reduction), 
+              we apply meta-level design parameters and specific design criteria.The <em>Table 3</em> presents quantitative parameters developed for 
+              selecting features that exhibit similar functions and share comparable geometric characteristics or domains.
+        </p>
+
+        <p>
+            <b>Criterion 1:</b> For multifunctional applications where one function involves anti-adsorption, 
+            absorption, repulsion, or reduction, select features with a lower total interaction area for combination.
+        </p>
+
+        <p>
+            <b>Criterion 2:</b> For multifunctional applications where one function involves adsorption, 
+            absorption, or attraction, select features with a higher interaction area for combination.
+        </p>
+        
+        <h4>Qualitative <span style="color: red;">parameters</h4>
+        <p>    
+           Users can also incorporate additional qualitative criteria into their selections, such as the environmental context where the design will be applied. 
+           For instance, when designing a device for arid regions, users could choose to include biological adaptations specific to those environments 
+        </p>
+
+        <table>
+            <caption>Table 3: Meta-level design parameters for selection for each domain</caption>
+            <tr> <!--Row 1 header-->
+                <th>Domain</th>
+                <th>Meta-level design parameters</th>
+            </tr>
+            <tr> <!--Row 2-->
+                <td>Surfaces</td>
+                <td>Interaction area</td>
+            </tr>
+            <tr><!--Row 3-->
+                <td>Cellular Structures</td>
+                <td>Interction area and Porosity</td>
+            </tr>
+            <tr><!--Row 4-->
+                <td>Shapes</td>
+                <td>Scale</td>
+            </tr>
+            <tr><!--Row 5-->
+                <td>Cross-sections</td>
+                <td>Scale</td>
+            </tr>
+        </table>
+
+        <p style="color: red;">
+           <em> Note: These meta-level design parameters are just a starting point; we'll add more as the system evolves.</em>
+        </p>
+
+        <h3 style="color: red;">COMBINE</h3>
+        <p>
+            The morphology matrix is used to combine different morphological features systematically.
+        </p>
+
+        <h3>Morphology & <span style="color: red;">Multifunctionality</span></h3>
+        <p>
+            Some morphological features are inherently multifunctional. 
+            For example, animal exoskeletons must simultaneously fulfill various roles like providing fracture toughness, 
+            regulating temperature, and offering camouflage. 
+            While these functions can coexist and even compete, MBID systematically combines multiple morphological features. 
+            This allows us to create novel engineering structures with function combinations that extend beyond merely coexisting or competing functions.
+        </p>
+
+    </div>
+
+    <div id = "Lego">
+        <h2>LEGO<span style="color: red;"> ANALOGY</span></h3>
+         <p>
+            Imagine each domain within the MBI<span style="color: red;">D</span> as a distinct bag of Lego blocks, 
+            where each block represents a specific biological feature or characteristic. 
+            The blocks within a single bag share a similar geometric designation 
+            (e.g., all "Surface" blocks have surface-level characteristics, all "Cellular Structure" blocks relate to porous or internal structures). 
+            The core idea is that by thoughtfully integrating different types of Lego blocks drawn from these 
+            various bags, designers can construct novel multifunctional conceptual designs. The <em>Figure 7</em> illustrating the analogy between 
+            lego blocks, biological features, and domains. 
+        </p>
+        <img src="../images/Lego_analogy.jpg" width ="80%" alt="Lego-analogy">
+        <figcaption>Fig 7: Depecting domains as bags and biological features as lego blocks</figcaption>
+        
+
+    </div>
+    
+    <div id = "footerOne">
+        <img src="../images/mcgill.png" width="150" height="50" alt="McGill logo">
+    </div>
+
+    <div id = "footerTwo">
+        <img src="../images/adml.JPG" width="150" height="50" alt="ADML logo">
+    </div>
+
+    <div id="copyright">
+        <p>Copyright &copy; 2025 ADML McGILL University. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

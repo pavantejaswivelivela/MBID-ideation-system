@@ -1,0 +1,221 @@
+body{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+#header{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#Overviewpic{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#id{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#Lego{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#fun{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#nav{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: whitesmoke;
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+li a:hover {
+    background-color: red;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+#footerOne{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+#footerTwo{
+    float: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+#copyright{
+    float: right;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+#doctoral_research{
+    padding: 10px;
+    margin: 20px;
+    font-size: 19px;
+}
+
+#Intro{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#detail{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+#domains{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+#example{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#info{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    font-style: italic;
+}
+
+caption{
+    font-style: italic;
+    text-align: center;
+    display: table-caption;
+}
+
+table{
+    border: 1px solid black; 
+    background-color: white; 
+    width: 100%; 
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+.canva-graph1{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph2{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph3{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph4{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph5{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph6{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph7{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.canva-graph8{
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+

@@ -1,0 +1,611 @@
+[
+    {
+        "id": "n1",
+        "name": "SC",
+        "parentId": null
+    },
+
+{
+        "id": "n2",
+        "name": "Micro/Nano projections (Lotus leaf)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n3",
+        "name": "Microstructures with a wax layer and pointed in shape",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n4",
+        "name": "Arrangement: The random arrangement of micro perturbances",
+        "parentId": "n3",
+	"value":1
+    },
+
+{
+        "id": "n5",
+        "name": "Micro/Nano projections (Rose petal)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n6",
+        "name": "Micro bumps in spherical shape",
+        "parentId": "n5"
+    },
+
+{
+        "id": "n7",
+        "name": "Packing:  Has low adhesion because of the densely packed micro bumps.",
+        "parentId": "n6",
+	"value":1
+    },
+
+{
+        "id": "n8",
+        "name": "Micro/Nano projections (Butterfly Wings)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n9",
+        "name": "(Repel water)--Flexible nanotips on ridged nanostripes and micro-scales.",
+        "parentId": "n8"
+    },
+
+{
+        "id": "n10",
+        "name": "Arrangement & Orientation: Direction-dependent arrangement when wings are tilted upwards.",
+        "parentId": "n9",
+	"value":1
+    },
+
+{
+        "id": "n11",
+        "name": "(Adher to inclined surface)--Nano-tips on microstructures.",
+        "parentId": "n8"
+    },
+
+{
+        "id": "n12",
+        "name": "Directional hierarchical arrangement with downward-tilted wings.",
+        "parentId": "n11",
+	"value":1
+    },
+
+{
+        "id": "n13",
+        "name": "Micro/Nano projections (Silver ragwort)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n14",
+        "name": "Hierarchical micro- and nanofibers from epidermal cells.",
+        "parentId": "n13"
+    },
+
+{
+        "id": "n15",
+        "name": "Arrangement: The surface is covered with randomly arranged 6 μm fibers.",
+        "parentId": "n14",
+	"value":1
+    },
+
+{
+        "id": "n16",
+        "name": "Micro/Nano projections (Rice Leaf) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n17",
+        "name": "Hierarchical micro-papillae with epicuticular wax and longitudinal grooves .",
+        "parentId": "n16"
+    },
+
+{
+        "id": "n18",
+        "name": "Orientation: Angle of inclination of the leaf closer to 10 degrees ",
+        "parentId": "n17",
+	"value":1
+    },
+
+{
+        "id": "n19",
+        "name": "Micro/Nano projections (Cicada Wings) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n20",
+        "name": "Cuticle has hexagonally arranged conical protuberances coated with hydrophobic wax.",
+        "parentId": "n19"
+    },
+
+{
+        "id": "n21",
+        "name": "Arrangement & Orientation: Hexagonally arranged spherical-capped protuberances & insect's upright position.",
+        "parentId": "n20",
+	"value":1
+    },
+
+{
+        "id": "n22",
+        "name": "Hair (Water Strider)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n23",
+        "name": "Legs have inclined conical hairs with longitudinal and helicoidal nanogrooves.",
+        "parentId": "n22"
+    },
+
+{
+        "id": "n24",
+        "name": "Arrangement & Orientation: Inclined and tapered hair and titled and randomly arranged micro-hair",
+        "parentId": "n23",
+	"value":1
+    },
+
+{
+        "id": "n25",
+        "name": "Micro/Nano projections (Nepenthes)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n26",
+        "name": "Crescent-shaped microstructures in the slippery zone; lunate-shaped ones below it",
+        "parentId": "n25"
+    },
+
+{
+        "id": "n27",
+        "name": "Orientation & Arrangement: Downward-oriented and randomly arranged microstructures.",
+        "parentId": "n26",
+	"value":1
+    },
+
+{
+        "id": "n28",
+        "name": "Micro/Nano projections (Mosquito Eyes)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n29",
+        "name": "(Repel micro water droplets) -- Microhemispherical structures with hexagonal non-close-packed (hcp)",
+        "parentId": "n28"
+    },
+
+{
+        "id": "n30",
+        "name": "Arrangement: Compact hexagonal non-close-packed (hcp) arrangement with <3 μm triangular voids.",
+        "parentId": "n29",
+	"value":1
+    },
+
+{
+        "id": "n31",
+        "name": "(Repel Water)--Ommatidia: micro hemispherical structure with nano papillae on the structure.",
+        "parentId": "n28"
+    },
+
+{
+        "id": "n32",
+        "name": "Arrangement & Packing: Microscale hemispherical microphthalmos covered with dense and evenly arranged nanoscale papillae.",
+        "parentId": "n31",
+	"value":1
+    },
+
+{
+        "id": "n33",
+        "name": "Hair (Gecko Feet)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n34",
+        "name": "Nanofiber hair (Setae), Hierarchical arrangement of lamellae, setae stalks, and spatula tips.",
+        "parentId": "n33"
+    },
+
+{
+        "id": "n35",
+        "name": "Packing & Orientation: Close packed and branched setae, and sticks when pulled from the palm towards the tip of the toe.",
+        "parentId": "n34",
+	"value":1
+    },
+
+{
+        "id": "n36",
+        "name": "Micro/Nano projections (Rose petals)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n37",
+        "name": "Round, grooved fine structures and micron-scale epidermal nubs on the rose petal surface",
+        "parentId": "n36"
+    },
+
+{
+        "id": "n38",
+        "name": "Orientation:Submicron cuticular fold geometry forms round, grooved structures oriented downward from petal nubs.",
+        "parentId": "n37",
+	"value":1
+    },
+
+{
+        "id": "n39",
+        "name": "Scales (Borrowing Pangolin)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n40",
+        "name": "(Resist Wear)--Overlapping triangular scales. ",
+        "parentId": "n39"
+    },
+
+{
+        "id": "n41",
+        "name": "Packing & Arrangement: Outward projection and overlapping scales for defence",
+        "parentId": "n40",
+	"value":1
+    },
+
+{
+        "id": "n42",
+        "name": "(Resist Abrasion)--Corrugations present on each scale.",
+        "parentId": "n39"
+    },
+
+{
+        "id": "n43",
+        "name": "Orientation: The direction of the corrugation is parallel to the direction in which a pangolin dig.",
+        "parentId": "n42",
+	"value":1
+    },
+
+{
+        "id": "n44",
+        "name": "Placoid Scales (Sharkskin)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n45",
+        "name": "(Anti bio-fouling)--The microstructure of sharkskin has a V-shaped micro-trench structure.",
+        "parentId": "n44"
+    },
+
+{
+        "id": "n46",
+        "name": "Packing & Arrangement: Densely overlapping scales with species-specific microstructural variations in sharks",
+        "parentId": "n45",
+	"value":1
+    },
+
+{
+        "id": "n47",
+        "name": "(Reduce drag)--Hierarchical placoid microscale arrangement",
+        "parentId": "n44"
+    },
+
+{
+        "id": "n48",
+        "name": "Skin stimulus: Shark scales are flexible and might erect passively",
+        "parentId": "n47",
+	"value":1
+    },
+
+{
+        "id": "n49",
+        "name": "Micro/Nano projections (Dolphin)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n50",
+        "name": "Presence of micro-rigids on the skin.",
+        "parentId": "n49"
+    },
+
+{
+        "id": "n51",
+        "name": "Skin stimulus: Dolphins can control their muscle to change their skin compliance.",
+        "parentId": "n50",
+	"value":1
+    },
+
+{
+        "id": "n52",
+        "name": "Feather serrations (Owl)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n53",
+        "name": "Comb-like serrations at the wing front, fringe feathers at the rear, and a velvet-like surface.",
+        "parentId": "n52"
+    },
+
+{
+        "id": "n54",
+        "name": "Arrangement: Combination of leading edge serrations and surface ridges.",
+        "parentId": "n53",
+	"value":1
+    },
+
+{
+        "id": "n55",
+        "name": "Scales (Snakeskin)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n56",
+        "name": "Microstructure (triangular) on central ventral and side ventral.",
+        "parentId": "n55"
+    },
+
+{
+        "id": "n57",
+        "name": "Longitudinal pits and caudal elevations of the triangular microstructure and anisotropic nature of microstructure.",
+        "parentId": "n56",
+	"value":1
+    },
+
+{
+        "id": "n58",
+        "name": "Micro/Nano projections (Desert scorpion)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n59",
+        "name": "Grooves, and micro bumps on the surface can improve the anti-erosion performance.",
+        "parentId": "n58"
+    },
+
+{
+        "id": "n60",
+        "name": "Arrangement: The Random arrangement of the microbumps",
+        "parentId": "n59",
+	"value":1
+    },
+
+{
+        "id": "n61",
+        "name": "Micro/Nano projections (Nepenthes)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n62",
+        "name": "Microstructure (cresent shaped) on the peristome section of the plant.",
+        "parentId": "n61"
+    },
+
+{
+        "id": "n63",
+        "name": "Orientation: Becomes extremely slippery when wet; crescent-shaped epidermal microstructures are inward-facing",
+        "parentId": "n62",
+	"value":1
+    },
+
+{
+        "id": "n64",
+        "name": "Micro/Nano projections (Namib desert beetle)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n65",
+        "name": "Beetle surface bumps with hydrophilic peaks and hydrophobic valleys.",
+        "parentId": "n64"
+    },
+
+{
+        "id": "n66",
+        "name": "Orientation: The beetle assumes a constant angle of 23 degrees.",
+        "parentId": "n65",
+	"value":1
+    },
+
+{
+        "id": "n67",
+        "name": "Tiles (Ray Fish)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n68",
+        "name": "Surface tiles.",
+        "parentId": "n67"
+    },
+
+{
+        "id": "n69",
+        "name": "Arrangement: The periodic arrangement of surface tiles. ",
+        "parentId": "n68",
+	"value":1
+    },
+
+{
+        "id": "n70",
+        "name": "Outer plate (Mantis shrimp - dactyl club)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n71",
+        "name": "Uniaxial chitin proteins and nanofibers fibres stacked along a helical twist in a periodic region.",
+        "parentId": "n70"
+    },
+
+{
+        "id": "n72",
+        "name": "Arrangement: Nanofibers arranged in a helical twist within the periodic zone between the impact and trained regions",
+        "parentId": "n71",
+	"value":1
+    },
+
+{
+        "id": "n73",
+        "name": "Outer shell (Abalone)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n74",
+        "name": "Surface tiles with an outer prismatic layer and inner nacreous layer.",
+        "parentId": "n73"
+    },
+
+{
+        "id": "n75",
+        "name": "Arrangement: Periodic stacked Voronoi plates arranged like brick and mortar, separated by an organic matrix",
+        "parentId": "n74",
+	"value":1
+    },
+
+{
+        "id": "n76",
+        "name": "Outer shell (Conch) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n77",
+        "name": "Three hierarchical lamellar macro layers (outer, middle, and inner).",
+        "parentId": "n76"
+    },
+
+{
+        "id": "n78",
+        "name": "Orientation: Orientation of the cross-lamellar layers (Outer, middle and inner)",
+        "parentId": "n77",
+	"value":1
+    },
+
+{
+        "id": "n79",
+        "name": "Outer shell (Nacre)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n80",
+        "name": "Voronoi tablet structures. ",
+        "parentId": "n79"
+    },
+
+{
+        "id": "n81",
+        "name": "Packing: Dense stacking - an increase in the vonorosity of the tablets dissipates more energy.",
+        "parentId": "n80",
+	"value":1
+    },
+
+{
+        "id": "n82",
+        "name": "Outer shell (Crab)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n83",
+        "name": "Meso layers in shells have a helicoidal shape; crab mollusc shells contain chitin.",
+        "parentId": "n82"
+    },
+
+{
+        "id": "n84",
+        "name": "Orientation: Helicoidal structure in complete 180 degrees rotation of the bouligand layer.",
+        "parentId": "n83",
+	"value":1
+    },
+
+{
+        "id": "n85",
+        "name": "Scales (Fish)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n86",
+        "name": "Flexible and overlapping scales. Scales, namely, placoid, ganoid, cycloid, and ctenoid.",
+        "parentId": "n85"
+    },
+
+{
+        "id": "n87",
+        "name": "Arrangement & Orientation: Overlapping fish scales with hard mineral, soft organic, and thin orthogonal collagen layers.",
+        "parentId": "n86",
+	"value":1
+    },
+
+{
+        "id": "n88",
+        "name": "Micro/Nano projections (Porcupine)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n89",
+        "name": "Micro-triangular shaped barbs.",
+        "parentId": "n88"
+    },
+
+{
+        "id": "n90",
+        "name": "Arrangement: Sequentially arranged and the tip of barbs oriented towards the body.",
+        "parentId": "n89",
+	"value":1
+    },
+
+{
+        "id": "n91",
+        "name": "Skull (Woodpecker)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n92",
+        "name": "Hyoid bone and Carnial bone containing hierarchical composite structure. ",
+        "parentId": "n91"
+    },
+
+{
+        "id": "n93",
+        "name": "Arrangemet & Orientation: Hierarchical composite between spongy bone; skull oriented for impact absorption.",
+        "parentId": "n92",
+	"value":1
+    },
+
+{
+        "id": "n94",
+        "name": "Skull bone (Bird)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n95",
+        "name": "A sandwich structure where the inner core is made up of trabeculae foam.",
+        "parentId": "n94"
+    },
+
+{
+        "id": "n96",
+        "name": "Orientation: Trabeculae foam oriented perpendicular to the outer shell.",
+        "parentId": "n95",
+	"value":1
+    }
+
+]

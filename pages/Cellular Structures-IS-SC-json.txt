@@ -1,0 +1,162 @@
+[
+    {
+        "id": "n1",
+        "name": "Structure & Configuration",
+        "parentId": null
+    },
+
+{
+        "id": "n2",
+        "name": "Skeletal Body (Luffa sponge)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n3",
+        "name": "The fibrous network structure of the vascular system. ",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n4",
+        "name": "Hierarchical- nested: Fibers grow longitudinally inside, circumferentially outside, and radially in the core.",
+        "parentId": "n3",
+	"value":1
+    },
+
+{
+        "id": "n5",
+        "name": "Elytra forewing (Beetle) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n6",
+        "name": "Pillar-like structure (chitin protein) between lower and upper skin (Honeycomb cells)",
+        "parentId": "n5"
+    },
+
+{
+        "id": "n7",
+        "name": "Hierarchical Tessellations: Trabeculae at honeycomb intersections with chitin fibers arranged linearly or spirally.",
+        "parentId": "n6",
+	"value":1
+    },
+
+{
+        "id": "n8",
+        "name": "Skeletal Body (Venus flower basket)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n9",
+        "name": "Hierarchical nested tessellation.",
+        "parentId": "n8"
+    },
+
+{
+        "id": "n10",
+        "name": "Hierarchical-overlaid arrangement: Corner vertices nested across faces.",
+        "parentId": "n9",
+	"value":1
+    },
+
+{
+        "id": "n11",
+        "name": "Peel (Pomelo)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n12",
+        "name": "Porous nested structure.",
+        "parentId": "n11"
+    },
+
+{
+        "id": "n13",
+        "name": "Stochastic arrangement: Dense vascular bundles surrounded by porous nested structure.",
+        "parentId": "n12",
+	"value":1
+    },
+
+{
+        "id": "n14",
+        "name": "Cuttle Bone (Cuttlefish)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n15",
+        "name": "Wall-septa arrangement with high porosity.",
+        "parentId": "n14"
+    },
+
+{
+        "id": "n16",
+        "name": "Periodic Tessellations with periodic arrangement of (Wall-septa)",
+        "parentId": "n15",
+	"value":1
+    },
+
+{
+        "id": "n17",
+        "name": "Leaf (Amazon Waterlily)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n18",
+        "name": "Hierarchical branched cellular structure",
+        "parentId": "n17"
+    },
+
+{
+        "id": "n19",
+        "name": "Hierarchical-Branching of edges",
+        "parentId": "n18",
+	"value":1
+    },
+
+{
+        "id": "n20",
+        "name": "Beak (Woodpecker)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n21",
+        "name": "Trabeculae foam sandwiched between hard outer shells.",
+        "parentId": "n20"
+    },
+
+{
+        "id": "n22",
+        "name": "Variable porosities at outer (30%), middle (65%), and inner foams(30%).",
+        "parentId": "n21",
+	"value":1
+    },
+
+
+{
+        "id": "n23",
+        "name": "Honeycomb (Bees).",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n24",
+        "name": "Hexagonal cells.",
+        "parentId": "n23"
+
+    },
+
+{
+        "id": "n25",
+        "name": "Periodic Tessellations and rounded corners rather than sharp edges.",
+        "parentId": "n24",
+	"value":1
+    }
+
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "id": "n1",
+        "name": "Structure & Configuration",
+        "parentId": null
+    },
+
+{
+        "id": "n2",
+        "name": "Beak (Kingfisher beak)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n3",
+        "name": "Rotational parabolic cross-section.",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n4",
+        "name": "Symmetry: Symmetry of the structure cross-section along the axis of the beak.",
+        "parentId": "n3",
+	"value":1
+    },
+
+{
+        "id": "n5",
+        "name": "Stem (Bamboo)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n6",
+        "name": "Vascular bundle that contains a multi-cell structure with gradient distribution.",
+        "parentId": "n5"
+    },
+
+{
+        "id": "n7",
+        "name": "Symmetry: Symmetry of vascular structural cross-section along the axis.",
+        "parentId": "n6",
+	"value":1
+    },
+
+{
+        "id": "n8",
+        "name": "Tree trunk (Palm tree) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n9",
+        "name": "Multicell structure with cone-shaped columns, nodes, and tetragonal or pentagonal cells.",
+        "parentId": "n8"
+    },
+
+{
+        "id": "n10",
+        "name": "Symmetry: Symmetrical cross section along the axis.",
+        "parentId": "n9",
+	"value":1
+    },
+
+{
+        "id": "n11",
+        "name": "Leaves (Cattail)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n12",
+        "name": "Gradual varying I-beam sections with high-density foam at the bottom",
+        "parentId": "n11"
+    },
+
+{
+        "id": "n13",
+        "name": "Symmetry: Symmetry of the I-beam cross section along the axis.",
+        "parentId": "n12",
+	"value":1
+    },
+
+{
+        "id": "n14",
+        "name": "Leaves (Horsetail) ",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n15",
+        "name": "Hollow vascular multi-cell structure",
+        "parentId": "n14"
+    },
+
+{
+        "id": "n16",
+        "name": "Symmetry: Symmetry of vascular structural cross section along the axis.",
+        "parentId": "n15",
+	"value":1
+    },
+
+{
+        "id": "n17",
+        "name": "Beak (Toucan and hornbill)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n18",
+        "name": "Rod-like trabecular foam sandwiched between hard β-keratin tile shells",
+        "parentId": "n17"
+    },
+
+{
+        "id": "n19",
+        "name": "Asymmetry: Asymmetric lower and upper beak shape",
+        "parentId": "n18",
+	"value":1
+    },
+
+{
+        "id": "n20",
+        "name": "Leaves (Iris)",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n21",
+        "name": "Sandwich panel with two fiber-reinforced layers and low-density foam core",
+        "parentId": "n20"
+    },
+
+{
+        "id": "n22",
+        "name": "Symmetry: Symmetry of low-density foam placed in between two reinforced layers along the axis.",
+        "parentId": "n21",
+	"value":1
+    }
+]

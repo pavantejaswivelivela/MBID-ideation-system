@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script> 
+    <script src="d3.v7.js"></script> <!--Use it when offline-->
+    <title>User Manual</title>
+</head>
+<body>
+    <img src="../images/mbid-logo.jpg" width="30%" alt="MBID logo">
+    <div id="nav">
+        <ul>
+            <li> <a href='../index.html'>Home</a></li>
+            <li> <a href="../pages/method.html">Expnadable Domain Integarted Design (XDID)</a></li>
+            <li> <a href="../pages/surfaces.html">Surfaces</a></li>
+            <li> <a href="../pages/cellular.html">Cellular Structures</a></li>
+            <li> <a href="../pages/shapes.html">Shapes</a></li>
+            <li> <a href="../pages/cross-sections.html">Cross-sections</a></li>
+        </ul>
+    </div>
+  
+    <div id = 'Intro'>
+        <h2>User <span style="color: red;">Manual</span></h2>
+        <p>This section provides a 
+         step-by-step guide to generate 
+         multifunctional designs using the MBI<span style="color: red;">D</span> ideation system.
+         As shown in the <em>Figure 8</em>, MBID users can access online sources for visual cues of 
+         various structures. Currently, the MBID ideation system offers a structured design framework, 
+         including graphical mapping and representation of these structures.
+        </p>
+
+        <p>
+            
+            <img src="../images/user_manual.jpg" width="60%" alt="MBID ideation system with visual stimulus">
+            <figcaption>
+                Fig 8: Visual representation of the MBID ideation system, 
+                which allows users to access online sources for visual cues of structures. 
+            </figcaption>
+        </p>
+
+    </div>
+
+    <div id = "detail">
+        <div>
+            <h3>Problem-Driven and Solution-Driven <span style="color: red;">Design </span></h3>
+            <p>
+                The MBID system supports two modes of design generation:    
+            </p>
+           <p>
+                <b>Problem-Driven Design</b>: Begin with a design problem, identify required functions, 
+                and generate a multifunctional solution.
+            </p>
+            <p>
+                <b>Solution-Driven Design</b>: Select and integrate biological 
+                functions of interest to generate a novel multifunctional concept
+           </p>
+        </div>
+    </div>
+
+    <div id ='example'>
+        <h2>Example <span style="color: red;">Walkthorugh</span></h2>
+        
+        <p>
+            <b>Problem Statement</b>
+        </p>
+
+        <p>
+            Design a multifunctional non-pneumatic 
+            tire for space robotics or extreme-weather vehicles that: <b> "Manages variable friction" and
+            "Resists impact"</b>
+        </p>
+        
+        <div>
+            <h3><span style="color: red;">Step 1:</span> Choosing relevant Domains</h3>
+            <p>
+                The initial selection of domains for integration is driven by two key factors: the designer's 
+                specific intention for the concept and the overarching requirements of the design problem at hand.
+            </p>
+        </div>
+
+        <div>
+            <h3><span style="color: red;">Step 2:</span> Explore domain dendrograms</h3>
+
+            <dl> <!--Description list-->
+                <dt><b>Surfaces Domain</b></dt> <!--heading-->
+                <dd style="padding: 15px;">
+                    Match the function “manage variable friction” with a biological feature.
+                    For example, <b>Snakeskin</b> texture has <b>integrated structure</b> i.e., triangular microstructures (scales), additional
+                    has a <b>structural configuration</b>: longitudinal pits, caudal elevation, and anisotropy of microstructures.
+                    <img src="../images/Surfaces-1.jpg" width="95%" alt="Surface Dendrogram 1">
+                    <img src="../images/Surfaces-2.jpg" width="95%" alt="Surface Dendrogram 2">
+                </dd> <!--Description-->
+                <dt><b>Cellular structures Domain</b></dt>
+                <dd style="padding: 15px;">
+                    Match the function “resist impact” with a biological feature.
+                    For example, <b>Woodpecker's beak</b> has <b>integrated structure</b> i.e., trabecular foam core sandwiched between hard outer shells
+                    and has a <b>structural configuration</b>: variable porosities—outer (30%), middle (65%), inner (30%)
+                    <img src="../images/Cellular structures-1.jpg" width="95%" alt="Cellular Dendrogram 1">
+                    <img src="../images/Cellular structures-2.jpg" width="95%" alt="Cellular Dendrogram 2">
+                </dd>
+            </dl>
+        </div>
+
+        <div>
+            <h3><span style="color: red;">Step 3:</span> Select features using meta-level <span style="color: red;"> design</span> parameters</h3>
+            <p>
+                Multiple features may serve the same function. As shown in <em>Figure 9</em>, the Woodpecker's beak and the Pomelo peel exhibit
+                "resist impact" function and belong to the Cellular structures domain.
+                To choose between features that have the same geometric 
+                characteristic (domain) and exhibit the same function, quantitative parameters 
+                called meta-level design parameters were introduced and are listed in <em>Table 4</em>. To choose between alternatives, apply the design criterion:
+            </p>
+
+            <img src="../images/selection.jpg" width="65%" alt="selection through metalevel design parameters">
+            <figcaption>Fig 9: (a) Manage variable friction is exhibited by the snakeskin that is classified as surfaces domain.
+                (b) Resist impact function is exhibited by the Woodpecker beak and the Pomelo peel and are classified as cellular structures domain.
+            (pictures of biological organisms from wikimedia commons)</figcaption>
+
+
+            <dl>
+                <dt><b>Criterion 1</b></dt>
+                    <dd style="padding: 15px;">
+                        For any multifunctional application, if one of the multifunction is described as an anti-adsorption / absorption or 
+                        repulsion or reduction, select the features with a lower total interaction area for combination.
+                    </dd>
+
+                <dt><b>Criterion 2</b></dt>
+                    <dd style="padding: 15px;">
+                        For any multifunctional application, if one of the multifunction can be described as 
+                        adsorption/absorption or attraction, select the features with a higher interaction area for combination.
+                    </dd>
+
+            </dl>
+
+            <p>
+                In the case of cellular structures choose the <b>woodpeckers beak</b> 
+                as it has a <b>high interaction area</b> and <b>low porosity</b> at the contact with the ground.
+            </p>
+
+            <p style="color: red;">
+                <em> Note: These meta-level design parameters are just a starting point; we'll add more as the system evolves.</em>
+            </p>
+            <h4>Qualitative <span style="color: red;">parameters</h4>
+            <p>    
+                Users can also incorporate additional qualitative criteria into their selections, such as the environmental context where the design will be applied. 
+                For instance, when designing a device for arid regions, users could choose to include biological adaptations specific to those environments 
+            </p>
+
+
+            <table>
+                    <caption>Table 4: Quantative parameters for selecting relevant biological features</caption>
+                    <tr> <!--Row 1 header-->
+                        <th>Domain</th>
+                        <th>Meta-level<span style="color: red;"> design</span> parameters</th>
+                    </tr>
+                    <tr> <!--Row 2-->
+                        <td>Surfaces</td>
+                        <td>Interaction area</td>
+                    </tr>
+                    <tr><!--Row 3-->
+                        <td>Cellular Structures</td>
+                        <td>Interction area and Porosity</td>
+                    </tr>
+                    <tr><!--Row 4-->
+                        <td>Shapes</td>
+                        <td>Scale</td>
+                    </tr>
+                        <tr><!--Row 5-->
+                        <td>Cross-sections</td>
+                        <td>Scale</td>
+                    </tr>
+                </table>
+        
+        </div>
+
+        
+
+        <div>
+           <h3><span style="color: red;">Step 4:</span> Combine</h3>
+           <p>
+                Use a <b>morphology matrix</b> to combine.The <em>Table 5</em> is an example of the morphology
+                matrix that shows the possibilities of generating different concepts by integarting various morphologies.
+                <em>Figure 10</em> is a visual representation of the Concept-1, integrating the snakeskin and the woodpecker's beak.
+            </p>
+        </div>
+
+
+            <table>
+                <caption>Table 5: Example morphology matrix for design of non-pnuematic multifunctional tires</caption>
+                    <tr> <!--Row 1 header-->
+                        <th>Function</th>
+                        <th>Surfaces</th>
+                        <th>Cellular structures</th>
+                        <th>Shapes</th>
+                        <th>Cross-sections</th>
+                    </tr>
+                    <tr> <!--Row 2-->
+                        <td>Manage variable friction</td>
+                        <td>Snakeskin</td>
+                        <td>--</td>
+                        <td>Dummy organism</td>
+                        <td>--</td>
+                        
+                    </tr>
+                    <tr><!--Row 3-->
+                        <td>Resist impact</td>
+                        <td>--</td>
+                        <td>woodpecker's beak</td>
+                        <td>--</td>
+                        <td>--</td>
+                    </tr>
+            </table>
+        <p>
+            Design Concepts:<br>
+            <b>Concept 1:</b> Snakeskin + Woodpecker's beak<br>
+            <b>Concept 2:</b> Dummy shape + Woodpecker's beak<br>
+            <img src="../images/combination.jpg" width="65%" alt="combination of features from domains">
+            <figcaption>Fig 10: Visual representation of the Concept-1 with a combination of  the snakeskin and the woodpecker's
+                beak.(pictures of biological organisms from wikimedia commons)
+            </figcaption>
+        </p>
+
+        <div>
+            <h3>Example Output: Non-pneumatic multifunctional bio-inspired tire design</h3>
+            <p>
+                The <em>Figure 11</em> is a conceptual sketch of the multifunctional non-pneumatic tire design. 
+                The design integrates the surface features of snake skin for friction management and the internal structure of a woodpecker's beak for impact resistance. 
+                These tires are potentially suitable for use in high-terrain regions.
+            </p>
+            <img src="../images/non-pneumatic tire.jpg" width="80%" alt="non-pneumatic tires">
+            <figcaption>Fig 11: Conceptual sketch of the multifuncitonal non-pneumatic tire generated by integrating 
+                surface features of lotus leaf and internal core feature of woodpecker's beak.</figcaption>
+            <p>Read more about the multifuncitonal bio-inspired non-pneumatic tires here:<a href=" https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/case-study-of-multifunctional-nonpneumatic-tire-design-for-the-validation-of-metalevel-design-parameter-in-domain-integrated-design-did-method/86F528A4C5476A5DE8204AB2E562586F" style="color: black;">
+                Click link</a></p> 
+        </div>
+
+        <div>
+                <h2>Other <span style="color: red;">Applications</span></h2>
+                <p>Figure 12 presents a schematic of additional bio-inspired 
+                    engineered conceptual designs developed through the
+                    MBI<span style="color: red;">D</span> <b>ideation system</b>
+                </p>
+
+                <img src="../images/other applications.jpg" width="80%" alt="non-pneumatic tires">
+                <figcaption>Fig 12: Conceptual designs of (a) Painless sutures for Medical applications, (b)Multifunctional skins for Marine applications,
+                     and (c) Heat absorption for Aerospace applications </figcaption>
+
+                <p> (a) Painless sutures for Medical applications: Designed by integrating <b>barbs on porcupine quill (surfaces)</b>
+                    and <b>kingfisher's beak-rotational parabolic cross-section (cross-sections)</b>
+                    <a href="https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/application-of-domain-integrated-design-methodology-for-bioinspired-design-a-case-study-of-suture-pin-design/C8E17309161B394CB3E75C314F36DA64" style="color: black;">
+                    Click link</a><br> 
+                
+                
+                 (b) Multifunctional skins for Marine applications: Designed by integrating <b>Honeycomb pattern (cellular structure)</b>
+                    and <b>shark skin (surfaces)</b>
+                    <a href="https://iopscience.iop.org/article/10.1088/1748-3190/ad3ed3/meta" style="color: black;">
+                    Click link</a><br> 
+                 
+            
+                 (c) Heat absorption for Aerospace applications: Designed by integrating <b>camel nostrils (cross-sections)</b>
+                    and <b>microbumbs of namib desert beetle (surfaces)</b>
+                    <a href="https://asmedigitalcollection.asme.org/GT/proceedings-abstract/GT2023/87066/1168318" style="color: black;">
+                    Click link</a> 
+                </p>    
+
+   
+            
+        </div>
+
+    </div>
+
+
+    <div id = "footerOne">
+        <img src="../images/mcgill.png" width="150" height="50" alt="McGill logo">
+    </div>
+
+    <div id = "footerTwo">
+        <img src="../images/adml.JPG" width="150" height="50" alt="ADML logo">
+    </div>
+
+    <div id="copyright">
+        <p>Copyright &copy; 2025 ADML McGILL University. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

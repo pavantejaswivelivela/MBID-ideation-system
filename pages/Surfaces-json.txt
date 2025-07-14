@@ -1,0 +1,555 @@
+[
+    {
+        "id": "n1",
+        "name": "Overall Hierarchy",
+        "parentId": null
+    },
+
+{
+        "id": "n2",
+        "name": "Surfaces",
+        "parentId": "n1"
+    },
+
+{
+        "id": "n3",
+        "name": "Repel Water Droplets",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n4",
+        "name": "Micro/Nano projections (Lotus leaf)",
+        "parentId": "n3"
+    },
+
+{
+        "id": "n5",
+        "name": "Epidermal tissue (Micro-papillae and epicuticular wax)",
+        "parentId": "n4",
+	"value":1
+    },
+
+{
+        "id": "n6",
+        "name": "Micro/Nano projections (Rose petal)",
+        "parentId": "n3"
+    },
+
+{
+        "id": "n7",
+        "name": "Epidermal tissue (Micro-papillae and epicuticular wax)",
+        "parentId": "n6",
+	"value":1
+    },
+
+{
+        "id": "n8",
+        "name": "Micro/Nano projections (Butterfly Wings)",
+        "parentId": "n3"
+    },
+
+{
+        "id": "n9",
+        "name": "Epidermis (wing scales)",
+        "parentId": "n8",
+	"value":1
+    },
+
+{
+        "id": "n10",
+        "name": "Repel Water Droplets",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n11",
+        "name": "Micro/Nano projections (Silver ragwort) ",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n12",
+        "name": "Epidermal tissue",
+        "parentId": "n11",
+	"value":1
+    },
+
+{
+        "id": "n13",
+        "name": "Micro/Nano projections (Rice Leaf)",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n14",
+        "name": "Epidermal tissue (Micro-papillae and epicuticular wax)",
+        "parentId": "n13",
+	"value":1
+    },
+
+{
+        "id": "n15",
+        "name": "Micro/Nano projections (Cicada Wings)",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n16",
+        "name": "Epidermal tissue (epidermal structures)",
+        "parentId": "n15",
+	"value":1
+    },
+
+{
+        "id": "n17",
+        "name": "Hair  (Water Strider)",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n18",
+        "name": "Microtrichia (epidermal cells) ",
+        "parentId": "n17",
+	"value":1
+    },
+
+{
+        "id": "n19",
+        "name": "Micro/Nano projections (Nepenthes)",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n20",
+        "name": "Epicuticular wax and epidermal cells",
+        "parentId": "n19",
+	"value":1
+    },
+
+{
+        "id": "n21",
+        "name": "Micro/Nano projections (Mosquito Eyes)",
+        "parentId": "n10"
+    },
+
+{
+        "id": "n22",
+        "name": "2D Epithelium and 3D Ommatidium",
+        "parentId": "n21",
+	"value":1
+    },
+
+{
+        "id": "n23",
+        "name": "Adhere to Surface",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n24",
+        "name": "Hair (Gecko Feet)",
+        "parentId": "n23"
+    },
+
+{
+        "id": "n25",
+        "name": "Epidermal tissue (Setae)",
+        "parentId": "n24",
+	"value":1
+    },
+
+{
+        "id": "n26",
+        "name": "Adhere to an inclined surface",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n27",
+        "name": "Micro/Nano projections (Rose petals)",
+        "parentId": "n26"
+    },
+
+{
+        "id": "n28",
+        "name": "Epidermal tissue (Micro-papillae and epicuticular wax)",
+        "parentId": "n27",
+	"value":1
+    },
+
+{
+        "id": "n29",
+        "name": "Micro/Nano projections (Butterfly wings)",
+        "parentId": "n26"
+    },
+
+{
+        "id": "n30",
+        "name": "Epidermis (wing scales)",
+        "parentId": "n29",
+	"value":1
+    },
+
+{
+        "id": "n31",
+        "name": "Repel micro-scale droplets ",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n32",
+        "name": "Micro/Nano projections (Mosquito Eyes)",
+        "parentId": "n31"
+    },
+
+{
+        "id": "n33",
+        "name": "2D Epithelium and 3D Ommatidium",
+        "parentId": "n32",
+	"value":1
+    },
+
+{
+        "id": "n34",
+        "name": "Resistance to wear & Resistance to abrasion",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n35",
+        "name": "Scales (Borrowing Pangolin)",
+        "parentId": "n34"
+    },
+
+{
+        "id": "n36",
+        "name": "Keratinous scales ",
+        "parentId": "n35",
+	"value":1
+    },
+
+{
+        "id": "n37",
+        "name": "Scales (Borrowing Pangolin) ",
+        "parentId": "n34"
+    },
+
+{
+        "id": "n38",
+        "name": "Keratinous scales",
+        "parentId": "n37",
+	"value":1
+    },
+
+{
+        "id": "n39",
+        "name": "Resistance to biofouling",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n40",
+        "name": "Placoid Scales (Sharkskin)",
+        "parentId": "n39"
+    },
+
+{
+        "id": "n41",
+        "name": "Dermal denticles (Dentine)",
+        "parentId": "n40",
+	"value":1
+    },
+
+{
+        "id": "n42",
+        "name": "Reduce aerodynamic and fluidic drag",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n43",
+        "name": "Placoid Scales (Sharkskin)",
+        "parentId": "n42"
+    },
+
+{
+        "id": "n44",
+        "name": "Dermal denticles (Dentine)  ",
+        "parentId": "n43",
+	"value":1
+    },
+
+{
+        "id": "n45",
+        "name": "Micro/Nano projections (Dolphin)",
+        "parentId": "n42"
+    },
+
+{
+        "id": "n46",
+        "name": "Dermal papillae and epidermal ridges",
+        "parentId": "n45",
+	"value":1
+    },
+
+{
+        "id": "n47",
+        "name": "Reduce Noise",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n48",
+        "name": "Feather serrations (Owl)",
+        "parentId": "n47"
+    },
+
+{
+        "id": "n49",
+        "name": "Keratin structural proteins/Keratinous material",
+        "parentId": "n48",
+	"value":1
+    },
+
+{
+        "id": "n50",
+        "name": "Manage variable friction",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n51",
+        "name": "Scales (Snakeskin)",
+        "parentId": "n50"
+    },
+
+{
+        "id": "n52",
+        "name": "Epidermis and Keratin proteins",
+        "parentId": "n51",
+	"value":1
+    },
+
+{
+        "id": "n53",
+        "name": "Resist erosion",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n54",
+        "name": "Micro/Nano projections (Desert scorpion)",
+        "parentId": "n53"
+    },
+
+{
+        "id": "n55",
+        "name": "Cuticle (Extracellular matrix by epidermis)",
+        "parentId": "n54",
+	"value":1
+    },
+
+{
+        "id": "n56",
+        "name": "Reduce friction",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n57",
+        "name": "Micro/Nano projections (Nepenthes)",
+        "parentId": "n56"
+    },
+
+{
+        "id": "n58",
+        "name": "Epidermal tissue",
+        "parentId": "n57",
+	"value": 1
+    },
+
+{
+        "id": "n59",
+        "name": "Absorb water",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n60",
+        "name": "Micro/Nano projections (Namib desert beetle)",
+        "parentId": "n59"
+    },
+
+{
+        "id": "n61",
+        "name": "Epicuticle and Epidermis",
+        "parentId": "n60",
+	"value":1
+    },
+
+{
+        "id": "n62",
+        "name": "Resist Shear",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n63",
+        "name": "Tiles (Ray Fish)",
+        "parentId": "n62"
+    },
+
+{
+        "id": "n64",
+        "name": "Tesserae (Cartilage)",
+        "parentId": "n63",
+	"value":1
+    },
+
+{
+        "id": "n65",
+        "name": "Resist compression",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n66",
+        "name": "Outer plate (Mantis shrimp - dactyl club)",
+        "parentId": "n65"
+    },
+
+{
+        "id": "n67",
+        "name": "Calcareous exoskeleton",
+        "parentId": "n66",
+	"value":1
+    },
+
+{
+        "id": "n68",
+        "name": "Outer shell (Abalone)",
+        "parentId": "n65"
+    },
+
+{
+        "id": "n69",
+        "name": "Mollusc Shell (Calcareous exoskeleton)",
+        "parentId": "n68",
+	"value":1
+    },
+
+{
+        "id": "n70",
+        "name": "Absorb energy",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n71",
+        "name": "Outer shell (Conch)",
+        "parentId": "n70"
+    },
+
+{
+        "id": "n72",
+        "name": "Mollusc Shell (Calcareous exoskeleton)",
+        "parentId": "n71",
+	"value":1
+    },
+
+{
+        "id": "n73",
+        "name": "Outer shell (Nacre)",
+        "parentId": "n70"
+    },
+
+{
+        "id": "n74",
+        "name": "Mollusc Shell (Calcareous exoskeleton)",
+        "parentId": "n73",
+	"value":1
+    },
+
+{
+        "id": "n75",
+        "name": "Outer shell (Crab)",
+        "parentId": "n70"
+    },
+
+{
+        "id": "n76",
+        "name": "Mollusc Shell (Calcareous exoskeleton)",
+        "parentId": "n75",
+	"value":1
+    },
+
+{
+        "id": "n77",
+        "name": "Scales (Fish)",
+        "parentId": "n70"
+    },
+
+{
+        "id": "n78",
+        "name": "Dermal scales (epidermal cells)",
+        "parentId": "n77",
+	"value":1
+    },
+
+{
+        "id": "n79",
+        "name": "Resist retraction and Ease insertion",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n80",
+        "name": "Micro/Nano projections (Porcupine)",
+        "parentId": "n79"
+    },
+
+{
+        "id": "n81",
+        "name": "Keratinous material ",
+        "parentId": "n80",
+	"value":1
+    },
+
+{
+        "id": "n82",
+        "name": "Resist impact",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n83",
+        "name": "Skull (Woodpecker)",
+        "parentId": "n82"
+    },
+
+{
+        "id": "n84",
+        "name": "Hard outer shell and bone (Connective tissue)",
+        "parentId": "n83",
+	"value":1
+    },
+
+{
+        "id": "n85",
+        "name": "Reduce weight",
+        "parentId": "n2"
+    },
+
+{
+        "id": "n86",
+        "name": "Skull bone (Bird)",
+        "parentId": "n85"
+    },
+
+{
+        "id": "n87",
+        "name": "Sandwich of External hard cover and trabeculae (Connective Tissue)",
+        "parentId": "n86"
+    }
+]
