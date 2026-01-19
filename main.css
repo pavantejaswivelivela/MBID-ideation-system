@@ -2,11 +2,13 @@ body{
     background-color: white;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 img {
   display: block;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #header{
@@ -14,36 +16,42 @@ img {
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Overviewpic{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #id{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Lego{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #fun{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav{
     padding: 10px;
     margin: 10px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -54,6 +62,7 @@ ul {
     overflow: hidden;
     background-color: black;
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -63,12 +72,15 @@ li {
     color: white;
     text-align: center;
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 li a {
     display: block;
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -85,18 +97,21 @@ ol {
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #footerOne{
     float: left;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #footerTwo{
     float: left;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #copyright{
@@ -104,53 +119,55 @@ ol {
     padding: 10px;
     margin: 20px;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #doctoral_research{
     padding: 10px;
     margin: 20px;
     font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Intro{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
-}
-
-#detail{
-    font-size: 20px;
-    padding: 10px;
-    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #domains{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #example{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #info{
     font-size: 20px;
     padding: 10px;
     margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 figcaption{
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     display: block;
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 caption{
     font-style: italic;
     text-align: center;
     display: table-caption;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table{
@@ -160,6 +177,7 @@ table{
     border-collapse: collapse;
     padding: 10px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 th, td {
     text-align: center;
@@ -167,6 +185,7 @@ th, td {
     font-size: 20px;
     padding: 10px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .canva-graph1{
