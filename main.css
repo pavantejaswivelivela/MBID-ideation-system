@@ -34,7 +34,7 @@ img {
 }
 
 #Lego{
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,6 +93,7 @@ ol {
   display: block;
   list-style-type: decimal;
   margin-top: 1em;
+  color: black;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
