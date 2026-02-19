@@ -60,40 +60,58 @@ img {
 
 @media (max-width: 768px) {
   .img-right {
-    flex: 0 0 100%; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
   }
   .img-left {
-    flex: 0 0 100%; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
   }
   .img-center {
-    flex: 0 0 100%; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
   }
    .row {
-    flex-direction: column; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
   }
    .row-text {
-    flex: 0 0 100%; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     padding: 10px; /* Adds some breathing room around the content */
     width: 100%;       /* Forces image to viewport width */
     align-items: center; /* Centers everything on mobile */
   }
   .col-text {
-    flex: 0 0 100%; /* This is the magic line that stacks them */
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
     padding: 10px; /* Adds some breathing room around the content */
     width: 100%;       /* Forces image to viewport width */
     align-items: center; /* Centers everything on mobile */
+  }
+  
+  h1 {
+    font-size: 24px; /* Adjusts font size for better readability on smaller screens */
+  }
+
+  h2 {
+    font-size: 22px; /* Adjusts font size for better readability on smaller screens */
+  }
+  
+  h3 {
+    font-size: 20px; /* Adjusts font size for better readability on smaller screens */
   }
   
   p {
@@ -106,6 +124,17 @@ img {
   li {
     font-size: 16px; /* Adjusts font size for better readability on smaller screens */
   }
+
+  dl {
+    font-size: 16px; /* Adjusts font size for better readability on smaller screens */
+  }
+
+  table {
+    display: flex;
+    flex-direction: column; /* Stacks the image and text vertically */
+    font-size: 16px; /* Adjusts font size for better readability on smaller screens */
+  }
+
 }
 
 #header{
