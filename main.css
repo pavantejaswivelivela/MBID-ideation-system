@@ -58,7 +58,7 @@ img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) and (max-width: 1024px) {
   .img-right {
     float: none; /* Removes the float on mobile */
     width: 100vw;       /* Forces image to viewport width */
