@@ -169,7 +169,7 @@ img {
 }
 
 #Lego{
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -261,31 +261,31 @@ ol {
 #doctoral_research{
     padding: 10px;
     margin: 20px;
-    font-size: 19px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #Intro{
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #domains{
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #example{
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #info{
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -303,24 +303,6 @@ caption{
     font-style: italic;
     text-align: center;
     display: table-caption;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-table{
-    border: 1px solid black; 
-    background-color: white; 
-    width: 100%; 
-    border-collapse: collapse;
-    padding: 10px;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-th, td {
-    text-align: center;
-    border: 1px solid black;
-    font-size: 20px;
-    padding: 10px;
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
