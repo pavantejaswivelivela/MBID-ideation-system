@@ -70,9 +70,7 @@ img {
     max-width: 100%;    /* Ensures it doesn't overflow its container */
   }
   .img-center {
-    flex-direction: column; /* This is the magic line that stacks them */
-    width: 100%;       /* Forces image to viewport width */
-    max-width: 100%;    /* Ensures it doesn't overflow its container */
+    flex: 0 0 100%; /* This is the magic line that stacks them */
   }
    .row {
     flex-direction: column; /* This is the magic line that stacks them */
@@ -80,12 +78,12 @@ img {
     max-width: 100%;    /* Ensures it doesn't overflow its container */
   }
    .row-text {
-    flex-direction: column; /* This is the magic line that stacks them */
+    flex: 0 0 100%; /* This is the magic line that stacks them */
     padding: 10px; /* Adds some breathing room around the content */
     width: 100%;       /* Forces image to viewport width */
   }
   .col-text {
-    flex-direction: column; /* This is the magic line that stacks them */
+    flex: 0 0 100%; /* This is the magic line that stacks them */
     padding: 10px; /* Adds some breathing room around the content */
     width: 100%;       /* Forces image to viewport width */
   }
