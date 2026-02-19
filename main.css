@@ -61,55 +61,45 @@ img {
 @media (max-width: 768px) {
   .img-right {
     flex-direction: column; /* This is the magic line that stacks them */
-    padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
+    width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
   }
   .img-left {
     flex-direction: column; /* This is the magic line that stacks them */
-    padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
+    width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
   }
   .img-center {
     flex-direction: column; /* This is the magic line that stacks them */
-    padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
+    width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
   }
    .row {
     flex-direction: column; /* This is the magic line that stacks them */
-    padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
+    width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
   }
    .row-text {
     flex-direction: column; /* This is the magic line that stacks them */
     padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
-    max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
+    width: 100%;       /* Forces image to viewport width */
   }
   .col-text {
     flex-direction: column; /* This is the magic line that stacks them */
     padding: 10px; /* Adds some breathing room around the content */
-    width: 100vw;       /* Forces image to viewport width */
-    max-width: 100%;    /* Ensures it doesn't overflow its container */
-    height: auto;       /* Maintains aspect ratio */
-    display: block;
+    width: 100%;       /* Forces image to viewport width */
   }
 
+  h1 {
+    font-size: 1rem; /* Adjusts font size for better readability on smaller screens */
+  }
+
+  h2 {
+    font-size: 1rem; /* Adjusts font size for better readability on smaller screens */
+  }
+  
   p {
-    font-size: 1rem; /* Resets oversized mobile text */
+    font-size: 16px; /* Adjusts font size for better readability on smaller screens */
   }
 }
 
