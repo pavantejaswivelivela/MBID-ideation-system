@@ -61,29 +61,30 @@ img {
 @media (max-width: 768px) {
   .img-right {
     float: none; /* Removes the float on mobile */
-    display: flex;
-    flex-direction: column; /* Stacks the image and text vertically */
     width: 100vw;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
     padding: 0%; /* Removes the margin on mobile */
+    margin-left: 0; /* Removes the left margin on mobile */
+    margin-right: 0%;   /* Removes the right margin on mobile */
   }
   .img-left {
-    float: none;
-    display: flex;
-    flex-direction: column; /* Stacks the image and text vertically */
-    width: 100%;       /* Forces image to viewport width */
-    max-width: 100%;    /* Ensures it doesn't overflow its container */
-    align-items: center; /* Centers everything on mobile */
-    padding: 0%; /* Removes the margin on mobile */
-  }
-  .img-center {
-    display: flex;
-    flex-direction: column; /* Stacks the image and text vertically */
+    float: none; /* Removes the float on mobile */
     width: 100vw;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
     padding: 0%; /* Removes the margin on mobile */
+    margin-left: 0; /* Removes the left margin on mobile */
+    margin-right: 0%;   /* Removes the right margin on mobile */
+  }
+  .img-center {
+    float: none; /* Removes the float on mobile */
+    width: 100vw;       /* Forces image to viewport width */
+    max-width: 100%;    /* Ensures it doesn't overflow its container */
+    align-items: center; /* Centers everything on mobile */
+    padding: 0%; /* Removes the margin on mobile */
+    margin-left: 0; /* Removes the left margin on mobile */
+    margin-right: 0%;   /* Removes the right margin on mobile */
   }
    .row {
     display: flex;
