@@ -1,7 +1,7 @@
 [
     {
         "id": "n1",
-        "name": "Overall Hierarchy",
+        "name": "Domain",
         "parentId": null
     },
 
@@ -505,7 +505,7 @@
 
 {
         "id": "n80",
-        "name": "Micro/Nano projections (Porcupine)",
+        "name": "Micro/Nano projections (Porcupine barbs)",
         "parentId": "n79"
     },
 

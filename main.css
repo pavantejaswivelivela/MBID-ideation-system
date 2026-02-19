@@ -6,9 +6,83 @@ body{
 }
 
 img {
-  display: block;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*create a class for image left-alignment*/
+.img-left {
+    float: left;
+    margin-right: 20px; /* Space between image and text */
+    margin-bottom: 10px;
+}
+/*create a class for image right-alignment*/
+.img-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/*create a class for image center-alignment*/
+.img-center {
+    display: block; /* Center puts the image center as a wall poster */
+    margin-left: auto;
+    margin-right: auto;
+}
+/*These are the classes in the div oof the image and text. It creates a row with the image and text side by side, with precise spacing and alignment.*/
+.row {
+    display: flex;
+    align-items: center; /* This centers the text vertically against the image */
+    /*align-items: flex-start; /*Aligns text to the top of the image */
+    /*align-items: stretch;  /*Both image and text box will be the same height */
+    /*align-items: flex-end; /* Text sits at the bottom of the image */
+    gap: 20px;               /* Precise spacing between image and text */
+    margin-bottom: 10px;     /* Spacing between different rows */
+}
+
+.row img {
+    flex: 0 0 60%;     /* Image stays at 30% width and won't shrink */
+    max-height: 600px; /* Limits the vertical growth */
+    object-fit: cover;  /* Prevents the image from looking squashed */
+    max-width: 60%;     /* Ensure image doesn't exceed 30% of the row */
+    height: auto;
+}
+
+.row-text {
+    flex: 1;                 /* Text takes up all remaining space */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+}
+
+.col-text {                 /* This class is for text in a column layout, where the image is above the text */
+    flex: 1; 
+}
+
+
+@media (max-width: 768px) {
+  .img-right {
+    flex-direction: column; /* This is the magic line that stacks them */
+    padding: 10px; /* Adds some breathing room around the content */
+  }
+  .img-left {
+    flex-direction: column; /* This is the magic line that stacks them */
+    padding: 10px; /* Adds some breathing room around the content */
+  }
+  .img-center {
+    flex-direction: column; /* This is the magic line that stacks them */
+    padding: 10px; /* Adds some breathing room around the content */
+  }
+   .row {
+    flex-direction: column; /* This is the magic line that stacks them */
+    padding: 10px; /* Adds some breathing room around the content */
+  }
+   .row-text {
+    flex-direction: column; /* This is the magic line that stacks them */
+    padding: 10px; /* Adds some breathing room around the content */
+  }
+
+  p {
+    font-size: 1rem; /* Resets oversized mobile text */
+  }
 }
 
 #header{
@@ -34,7 +108,7 @@ img {
 }
 
 #Lego{
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,29 +129,29 @@ img {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
-    color: whitesmoke;
+    margin: 11px;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
     overflow: hidden;
     background-color: black;
+    width: fit-content;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
-    float: left;
-    padding: 5px;
-    margin: 10px;
+    padding: 0px;
+    margin: 11px;
     color: white;
-    text-align: center;
+    display: inline-block;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +160,7 @@ li a {
 
 
 li a:hover {
-    background-color: #696969;
+    background-color: #636262;
 }
 
 ol {

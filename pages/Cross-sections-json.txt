@@ -19,7 +19,7 @@
 
 {
         "id": "n4",
-        "name": "Beak (Kingfisher beak)",
+        "name": "Beak cross-section (Kingfisher beak)",
         "parentId": "n3"
     },
 
@@ -38,7 +38,7 @@
 
 {
         "id": "n7",
-        "name": "Leaves-cross section (Horsetail)",
+        "name": "Leaves cross-section (Horsetail)",
         "parentId": "n6"
     },
 
@@ -51,7 +51,7 @@
 
 {
         "id": "n9",
-        "name": "Stem-cross section (Bamboo)",
+        "name": "Stem cross-section (Bamboo)",
         "parentId": "n6"
     },
 
@@ -64,7 +64,7 @@
 
 {
         "id": "n11",
-        "name": "Tree trunk-cross section (Palm tree)",
+        "name": "Tree trunk cross-section (Palm tree)",
         "parentId": "n6"
     },
 
@@ -83,7 +83,7 @@
 
 {
         "id": "n14",
-        "name": "Beak-cross section (Toucan and hornbill)",
+        "name": "Beak cross-section (Toucan and hornbill)",
         "parentId": "n13"
     },
 
@@ -102,7 +102,7 @@
 
 {
         "id": "n17",
-        "name": "Leaves-cross section (Cattail)",
+        "name": "Leaves cross-section (Cattail)",
         "parentId": "n16"
     },
 
@@ -115,7 +115,7 @@
 
 {
         "id": "n19",
-        "name": " Leaves-cross section (Iris)",
+        "name": " Leaves cross-section (Iris)",
         "parentId": "n16"
     },
 

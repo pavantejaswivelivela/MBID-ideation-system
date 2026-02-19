@@ -6,118 +6,153 @@
     <link rel="stylesheet" href="../main.css">
     <script src="https://d3js.org/d3.v7.min.js"></script> 
     <script src="d3.v7.js"></script> <!--Use it when offline-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- For mobile view -->
     <title>Design Method</title>
 </head>
 <body>
-    <img src="../images/mbid-logo.jpg" width="30%" alt="MBID logo">
+    <div id ="header">
+        <h1><b>MBID ideation system</b></h1>
+    </div>
+
      <div id="nav">
         <ul>
-            <li> <a href='../index.html'>Home</a></li>
-            <li> <a href="../pages/surfaces.html">Surfaces</a></li>
-            <li> <a href="../pages/cellular.html">Cellular Structures</a></li>
-            <li> <a href="../pages/shapes.html">Shapes</a></li>
-            <li> <a href="../pages/cross-sections.html">Cross-sections</a></li>
-            <li> <a href="../pages/user-manual.html">User guide</a> </li>
+            <li> <a href='../index.html'><b>Home</b></a></li>
+            <li> <a href="../pages/surfaces.html"><b>Surfaces Domain</b></a></li>
+            <li> <a href="../pages/cellular.html"><b>Cellular Structures Domain</b></a></li>
+            <li> <a href="../pages/shapes.html"><b>Shapes Domain</b></a></li>
+            <li> <a href="../pages/cross-sections.html"><b>Cross-sections Domain</b></a></li>
+            <li> <a href="../pages/user-manual.html"><b>User guide</b></a> </li>
         </ul>
     </div>
 
 
-    <div id = "id">
-        <h2>DOMAIN INTEGRATED DESIGN (DID) / EXPANDABLE DID (xDID)</h2>
+    <div id = "Overviewpic">
+        <h2><b>DOMAIN INTEGRATED DESIGN (DID) and EXPANDABLE DID (xDID)</b></h2>
         <p> 
-            The core of the DID / xDID methodology is a structured classification, mapping and combination of functional morphological features from biological organisms.
-            Unlike the other methodologies, DID / xDID focus on the systematic exploration of morphological features across diverse biological domains.
-            This approach enables the generation of novel multifunctional design concepts by integrating features based on their geometric characteristics and functional capabilities.
+            The DID and xDID methodologies are built on the structured classification, domain mapping, and systematic integration of functional morphological features derived from biological organisms. 
+            They focus on exploring morphological features across defined geometric Domains rather than isolated biological examples. 
+            By organising features according to their <b>architectural characteristics</b> and abstracting their <b>underlying geometric logic</b>, the framework enables the systematic development of novel multifunctional design concepts
+
         </p>
-    </div>
 
-
-    <div id ="Overviewpic">
-        <h3>MORPHOLOGY-DRIVEN APPROACH</h3>
+        <h3><b>MORPHOLOGY-DRIVEN APPROACH</b></h3>
             <p>
-                Biological organisms achieve a wide range of functions through the interplay of morphology (structure), physiology (mechanisms), and behaviour. 
-                The DID / xDID approach explicitly focuses on functions that arise from morphological features, referred to as <b>embodiment functions</b>.
+                Biological function arises from the interaction of morphology, physiology, and behaviour. DID and xDID methodologies explicitly focus on functions that originate from morphological structure. 
+                These morphology-derived functions are defined as <b>embodiment functions</b>
             </p>
             
-        <h3>DIVERSITY-ENHANCED</h3>    
+            <div class="row">
+                    <div class="row-text">
+                        <h3><b>EMBODIMENT-LEVEL ABSTRACTION</b></h3> 
+                        <p>
+                            An embodiment function arises from the <b>integrated structure</b> and its <b>configuration</b>. These structural arrangements generate specific physical effects that give rise to function. 
+                            DID and xDID focus on abstracting the underlying geometric logic that governs these structure–effect relationships
+                        </p>
+                    </div>    
+                <img src="../images/method1.jpg" class="img-center" width="50%" alt="Explanation 1 of MBID">
+            </div>
+            
+        <h3><b>DIVERSITY-ENHANCED APPROACH</b></h3>    
             <p>
-                Nature often provides efficient solutions. Distantly related organisms, despite distinct evolutionary paths, frequently converge on similar structural designs to perform the same functions. 
-                The DID / xDID uses this principle to explore morphological diversity across both plant and animal kingdoms, substantially expanding the design solution space for engineering challenges.
-            </p>
-        
-            <p>
-                <img src="../images/method.jpg" width ="83%" alt="method of MBID">
+                Distantly related organisms, despite distinct evolutionary paths, <b>frequently converge on similar structural designs</b> to perform the same functions. 
+                The DID and xDID use this principle to explore morphological diversity across both plant and animal kingdoms, expanding the available design space for engineering problems.
             </p>
     </div>
 
     <div id ="Overviewpic">
-        <h3>DID / xDID WORKFLOW</h3>
+        <h3><b>DID AND xDID METHODOLOGY - WORKFLOW</b></h3>
+            <img src="../images/method2.jpg" class="img-center" width="81%" alt="method of MBID">
+
+            <p style = "font-size: 16px;">
+                <b>Reference</b>:<br> 
+                    <em>(a) W.K. Cho, J.A. Ankrum, D. Guo, S.A. Chester, S.Y. Yang, A. Kashyap, G.A. Campbell, R.J. Wood, R.K. Rijal, R. Karnik, R. Langer, & J.M. Karp, 
+                    Microstructured barbs on the North American porcupine quill enable easy tissue penetration and difficult removal, 
+                    Proc. Natl. Acad. Sci. U.S.A. 109 (52) 21289-21294, <u>https://doi.org/10.1073/pnas.1216441109</u> (2012)</em>
+            </p>
+    </div>
+
+    <div id="header">
+        
         <p>
-            <b>1. Identify</b> functional morphological features from biological organisms    
+            <b>1. IDENTIFY</b> functional morphological features from biological organisms.    
         </p>
 
         <p>
-            <b>2. Extract</b> the morphological feature and the embodiment function it performs. 
-            <b>Abstract</b> the embodiment function as a combination of the integrated structure and its structural strategy
+            <b>2. EXTRACT</b> the embodiment function performed by the morphological feature. 
+            <b>ABSTRACT</b> the embodiment function as a combination of the integrated structure and its structural strategy.
         </p>
 
-        <p>
-            <b>3. Classify</b> morphological features based on their defining characteristics and <b>map</b> them to overarching architectural and geometric designations, referred to as <b>Domains</b>. 
-            The Domains are Surfaces, Cellular Structures, Shapes, and Cross-Sections
-        </p>
         
+        <div class="row">
+            <div class="row-text">
+                <p>
+                    <b>3. CLASSIFY</b> morphological features based on their defining characteristics and <b>MAP</b> them to overarching geometric/architectural <b>Domains: </b> Surfaces, Cellular Structures, Shapes, and Cross-Sections.
+                </p>
+                
+                <p>
+                    For example, the morphological feature of micro-scale projections on the lotus leaf exhibits the embodiment function of water repellence. This function arises from the integrated structure 
+                    formed by hierarchical surface architecture composed of micro- and nano-scale projections and the associated structural strategy governing their arrangement and spacing. 
+                    The material composition, particularly the presence of a hydrophobic wax layer, further contributes to this functionality. Within the <b>DID and xDID</b> framework, this feature is 
+                    characterised as a body or skin texture and is mapped to the overarching geometric/architectural <b>Domain of Surfaces</b>. 
+                </p>
+            </div>
+            <img src="../images/method3.jpg" width ="59%" alt="Explanation 3 of method">
+        </div>
+
         <p>
-            <img src="../images/method1.jpg" width ="53%" alt="Explanation 1 of method">
-        </p>
-        
+            In this research, the focus is on abstracting and mapping the <b>structural cause</b>, defined by integrated structure and structural strategy to the <b>physical outcome (repel water)</b>. 
+            The observed effect arises through an underlying physical effect, commonly described as the <b>lotus effect or non-wettability</b>, which is acknowledged but not explicitly modelled within this framework.
+        </p> 
+
         <p>
-            For example, the morphological feature of micro-scale projections on the lotus leaf exhibits the embodiment function of water repellence. This function arises from the integrated structure formed by hierarchical micro- and nano-scale projections on the leaf surface and the associated structural strategy governing their arrangement and spacing. 
-            The material composition, particularly the presence of a hydrophobic wax layer, further contributes to this functionality. Within the DID / xDID framework, this feature is characterised as a body or skin texture and is mapped to the overarching architectural and geometric <b>Domain of Surfaces</b>
+            <b>Geometric Basis of Classification:</b> Cross-Sections and Shapes Domains may contain surface and cellular elements; however, classification is determined by the dominant <em>morphological–geometric characteristic</em> through which the function is realised.
         </p>
        
         <p>
-            <b>4. Develop</b> a morphological knowledge base and <b>visualize</b> relationships between morphological features, embodiment functions, integrated structures, and structural strategies
+            <b>4. DEVELOP</b> a morphological knowledge base and <b>VISUALIZE</b> relationships between morphological features, embodiment functions, integrated structures, and structural strategies.
         </p>
 
         <p>
-            <b>5.Explore</b> and <b>select</b> embodiment functions and corresponding morphological features within Domains. 
+            <b>5. EXPLORE</b> and <b>SELECT</b> embodiment functions and corresponding morphological features within Domains. 
             Meta-level design parameters are used to select between features that exhibit the same function and belong to the same Domain.
         </p>
         
         <p>
-            <b> 6. Combine</b> selected features across Domains to design multifunctional bio-inspired structures
+            <b>6. COMBINE</b> the selected features across Domains to design passive multifunctional bio-inspired device concepts.
         </p>
+    </div>
 
-        <h3>KEY DEFINITIONS</h3>
+    <div id="header">
+        <h3><b>KEY DEFINITIONS</b></h3>
         <p>
-            <b>Morphological features:</b> Morphological and anatomical features observed in the plant and animal kingdoms
-        </p>
-
-        <p>
-            <b>Morphological features characteristic:</b> The observable appearance, form, and physical attributes of a feature.
-        </p>
-
-        <p>
-            <b>Embodiment function:</b> The function exhibited by a physical structure as realised through its morphology
+            <b>a. Biological morphological features:</b> Morphological and anatomical features observed in the plant and animal kingdoms.
         </p>
 
         <p>
-            <b>Integrated structure:</b> The physical description of a multiscale, heterogeneous structure, 
+            <b>b. Morphological features characteristic:</b> The observable appearance, form, and physical attributes of a feature.
+        </p>
+
+        <p>
+            <b>c. Embodiment function:</b> The function exhibited by a physical structure as realised through its morphology.
+        </p>
+
+        <p>
+            <b>d. Integrated structure:</b> The physical description of the internal multiscale, heterogeneous structure, 
             including micro- and nanostructures, macro-scale geometry, and surface layers such as wax coatings.
         </p>
 
         <p>
-            <b>Structural strategy:</b> Encompasses aspects such as the arrangement, packing, or orientation of micro/nanostructures, symmetry, asymmetry, or 
+            <b>e. Structural strategy:</b> Encompasses aspects such as the arrangement, packing, or orientation of micro/nanostructures, symmetry, asymmetry, or 
             tessellation patterns. It also accounts for changes in structural configuration due to external stimuli, such as the erection of scales or a change in skin compliance, 
             which occur when other elements interact with the structure.
         </p>
 
         <p>
-            <b>Domain:</b> The overarching architectural or geometric designation used to organise morphological features.
+            <b>f. Domain:</b> The overarching geometric/architectural designation used to organise morphological features.
         </p>
             
         <p>
-            <b>Meta-level design parameters:</b> Quantitative geometric parameters used to select between morphological features that belong to the same Domain and exhibit the same function. 
+            <b>g. Meta-level design parameters:</b> Quantitative geometric parameters used to select between morphological features that belong to the same Domain and exhibit the same function. 
             These parameters are validated through simulation-based case studies. 
         </p>
 
@@ -130,23 +165,26 @@
         </p>
 
         <p>
-           In addition there are <b>cross-domain selection parameters</b> used when features from different Domains exhibit the same function. The parameters are Surface area-to-volume ratio; Stiffness-to-weight ratio. 
+           In addition there are <b>cross-domain selection parameters</b> used when features from different Domains exhibit the same function. The identified parameters are Surface area-to-volume ratio; Stiffness-to-weight ratio. 
         </p>
+    </div>
 
-        <p>
-            <b>DETAILED DESCRIPTIONS AND DESIGN LOGIC ARE PROVIDED IN THE ASSOCIATED PUBLICATIONS</b>.
-        </p>
+        
+    <div id="Lego">
+        <p style="font-size: 20px;">
+            <b>RELATED PUBLICATIONS</b>
+        </p>    
+            <p><em>
+                1. Velivela, P.T. and Zhao, Y.F., 2024. BIKAS: Bio-Inspired Knowledge Acquisition and Simulacrum—A Knowledge Database to Support Multifunctional Design Concept Generation. Data Intelligence, pp.1-28.  DOI: <u>https://doi.org/10.1162/dint_a_00240</u>   
+            </em></p>
 
-        <div id="Lego">
-            <p>
-                1. Velivela, P.T. and Zhao, Y.F., 2023. Supporting Multifunctional Bio-Inspired Design Concept Generation through Case-Based Expandable Domain Integrated Design (xDID) Model. Designs, 7(4), p.86.  DOI: <u>https://doi.org/10.3390/designs7040086</u>
-            </p>
+            <p><em>
+                2. Velivela, P.T. and Zhao, Y.F., 2023. Supporting Multifunctional Bio-Inspired Design Concept Generation through Case-Based Expandable Domain Integrated Design (xDID) Model. Designs, 7(4), p.86.  DOI: <u>https://doi.org/10.3390/designs7040086</u>
+            </em></p>
 
-            <p>
-                2. Velivela, P.T. and Zhao, Y.F., 2022. A Comparative Analysis of the State-of-the-Art Methods for Multifunctional Bio-Inspired Design and an Introduction to Domain Integrated Design (DID). Designs, 6(6), p.120.  DOI: <u>https://doi.org/10.3390/designs6060120</u> <b>(Feature Article)</b>
-            </p>
-        </div>
-
+            <p><em>
+                3. Velivela, P.T. and Zhao, Y.F., 2022. A Comparative Analysis of the State-of-the-Art Methods for Multifunctional Bio-Inspired Design and an Introduction to Domain Integrated Design (DID). Designs, 6(6), p.120.  DOI: <u>https://doi.org/10.3390/designs6060120</u> <b>(Feature paper)</b>
+            </em></p>
     </div>
      
     <div id = "footerOne">

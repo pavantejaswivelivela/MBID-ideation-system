@@ -7,7 +7,7 @@
 
 {
         "id": "n2",
-        "name": "Skeletal Body (Luffa sponge)",
+        "name": "Skeletal Body cellular structure (Luffa sponge)",
         "parentId": "n1"
     },
 
@@ -26,7 +26,7 @@
 
 {
         "id": "n5",
-        "name": "Elytra forewing (Beetle) ",
+        "name": "Elytra forewing cellular structure (Beetle) ",
         "parentId": "n1"
     },
 
@@ -45,7 +45,7 @@
 
 {
         "id": "n8",
-        "name": "Skeletal Body (Venus flower basket)",
+        "name": "Skeletal body cellular structure (Venus flower basket)",
         "parentId": "n1"
     },
 
@@ -64,7 +64,7 @@
 
 {
         "id": "n11",
-        "name": "Peel (Pomelo)",
+        "name": "Peel cellular structure (Pomelo)",
         "parentId": "n1"
     },
 
@@ -83,7 +83,7 @@
 
 {
         "id": "n14",
-        "name": "Cuttle Bone (Cuttlefish)",
+        "name": "Cuttle bone cellular structure (Cuttlefish)",
         "parentId": "n1"
     },
 
@@ -102,7 +102,7 @@
 
 {
         "id": "n17",
-        "name": "Leaf (Amazon Waterlily)",
+        "name": "Leaf cellular structure (Amazon Waterlily)",
         "parentId": "n1"
     },
 
@@ -121,7 +121,7 @@
 
 {
         "id": "n20",
-        "name": "Beak (Woodpecker)",
+        "name": "Beak cellular structure (Woodpecker)",
         "parentId": "n1"
     },
 
@@ -141,7 +141,7 @@
 
 {
         "id": "n23",
-        "name": "Honeycomb (Bees).",
+        "name": "Honeycomb cellular structure (Bees).",
         "parentId": "n1"
     },
 
