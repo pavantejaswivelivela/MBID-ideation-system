@@ -58,13 +58,14 @@ img {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .img-right {
     display: flex;
     flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
+    padding: 0%; /* Removes the margin on mobile */
   }
   .img-left {
     display: flex;
@@ -72,6 +73,7 @@ img {
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
+    padding: 0%; /* Removes the margin on mobile */
   }
   .img-center {
     display: flex;
@@ -79,6 +81,7 @@ img {
     width: 100%;       /* Forces image to viewport width */
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
+    padding: 0%; /* Removes the margin on mobile */
   }
    .row {
     display: flex;
@@ -87,6 +90,14 @@ img {
     max-width: 100%;    /* Ensures it doesn't overflow its container */
     align-items: center; /* Centers everything on mobile */
   }
+
+  .row img {
+    width: 100%;       /* Forces image to viewport width */
+    max-width: 100%;    /* Ensures it doesn't overflow its container */
+    height: auto;      /* Maintains aspect ratio */
+    padding: 0%; /* Removes the margin on mobile */
+  }
+
    .row-text {
     display: flex;
     flex-direction: column; /* Stacks the image and text vertically */
