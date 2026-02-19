@@ -60,6 +60,7 @@ img {
 
 @media (max-width: 768px) {
   .img-right {
+    float: none; /* Removes the float on mobile */
     display: flex;
     flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
@@ -68,6 +69,7 @@ img {
     padding: 0%; /* Removes the margin on mobile */
   }
   .img-left {
+    float: none;
     display: flex;
     flex-direction: column; /* Stacks the image and text vertically */
     width: 100%;       /* Forces image to viewport width */
