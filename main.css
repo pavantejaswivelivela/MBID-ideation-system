@@ -58,7 +58,7 @@ img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .img-right {
     display: flex;
     flex-direction: column; /* Stacks the image and text vertically */
