@@ -2,7 +2,14 @@ body{
     background-color: white;
     padding: 10px;
     margin: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("images/background.png"); */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-size: cover; /* Scales the image to cover the entire container */
+    background-attachment: fixed; /* Fixes the image position during scroll */
+    opacity: 1.0; /* Set your transparency here (0.0 to 1.0) */
+    z-index: -1;   /* Places it behind your text content */
+    /* Add other background properties as needed */
 }
 
 img {
@@ -107,50 +114,36 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    margin: 11px;
-    padding: 0;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;   /* keeps width tight to content */
-}
-
-li {
-    padding: 0px;
-    margin: 11px;
-    color: white;
-    display: inline-block;
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-
-li a:hover {
-    background-color: #636262;
-}
-
-ol {
-  display: block;
-  list-style-type: decimal;
-  margin-top: 1em;
-  color: black;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
+.navbar {
+  margin: 11px;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.navbar li {
+  padding: 0px;
+  margin: 11px;
+  display: inline-block;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #636262;
+}
+
+ul {
+  background-color: transparent;
+  color: black;
 }
 
 #footerOne{
