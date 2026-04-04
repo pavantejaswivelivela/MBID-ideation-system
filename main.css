@@ -3,6 +3,10 @@ body{
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px; /* fixing the desktop layout */
+    overflow-x: auto; /* fixing the desktop layout */
+    
+    
     /* background-image: url("images/background.png"); */
     background-repeat: no-repeat; /* Prevents the image from tiling */
     background-size: cover; /* Scales the image to cover the entire container */
