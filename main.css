@@ -3,9 +3,6 @@ body{
     padding: 10px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0; /* Fixing the desktop view on mobile and ipad */
-    width: 1200px; /* Fixing the desktop view on mobile and ipad */
-    
     
     /* background-image: url("images/background.png"); */
     background-repeat: no-repeat; /* Prevents the image from tiling */
@@ -14,10 +11,6 @@ body{
     opacity: 1.0; /* Set your transparency here (0.0 to 1.0) */
     z-index: -1;   /* Places it behind your text content */
     /* Add other background properties as needed */
-}
-
-html {
-  -webkit-text-size-adjust: 100%; /* Fixing the desktop view on mobile and ipad */
 }
 
 img {
