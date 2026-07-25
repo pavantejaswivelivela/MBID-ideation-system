@@ -1,2 +1,2 @@
-# MBID-ideation-system
-A systematic design method and tool for rapid concept design and engineering of bio-inspired multifunctional technologies using morphology and material strategies.
+# MBID v1
+MBID (Multifunctional Bio-inspired Design) is a biological morphology-informed, rule-based product design and engineering framework for systematically generating multifunctional bio-inspired physically intelligent engineering concepts that can be translated into technically feasible products.
