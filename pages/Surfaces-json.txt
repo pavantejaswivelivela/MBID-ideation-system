@@ -218,7 +218,7 @@
 
 {
         "id": "n35",
-        "name": "Scales (Borrowing Pangolin)",
+        "name": "Scales (Borrowing Pangolin) (Resist wear)",
         "parentId": "n34"
     },
 
@@ -231,7 +231,7 @@
 
 {
         "id": "n37",
-        "name": "Scales (Borrowing Pangolin) ",
+        "name": "Scales (Borrowing Pangolin) (Resist abrasion) ",
         "parentId": "n34"
     },
 
