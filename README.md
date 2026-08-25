@@ -1,6 +1,7 @@
 ## MBID V1 (V1 - Version 1)
 
 <img width="1672" height="444" alt="MBID MAIN" src="https://github.com/user-attachments/assets/a373f547-67eb-4349-8bfe-fc2f01125039" />
+
 **MBID (Multifunctional Bio-inspired Design)** is a biological morphology-informed, rule-based product design and engineering framework for systematically generating multifunctional bio-inspired physically intelligent engineering concepts that can be translated into technically feasible products.
 
 
