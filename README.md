@@ -5,54 +5,92 @@
 **MBID (Multifunctional Bio-inspired Design)** is a biological morphology-informed, rule-based product design and engineering framework for systematically generating multifunctional bio-inspired physically intelligent engineering concepts that can be translated into technically feasible products.
 
 
+## WHY MBID
+- Modern products, particularly medical devices and advanced engineering systems, increasingly require multifunctionality, lightweight construction, resource efficiency, and high performance within tight spatial and operational constraints.
+  
+- Biological literature contains an extensive body of morphological information that encodes how biological structures achieve and integrate multiple functions.
+  
+- Existing bio-inspired design approaches often require designers to manually search, interpret, abstract, and translate biological strategies into engineering solutions.
+  
+- MBID provides a structured route from biological morphology → morphological abstraction → engineering morphology → multifunctional engineering concept.
+  
+- Biological morphological features are inherently multifunctional, with their functional combinations shaped by evolutionary pressures and adaptation to specific environments.
+  
+- MBID systematically abstracts, classifies, and combines biological morphological features to generate unconventional or intentionally selected multifunctional engineering concepts, including combinations that may not occur naturally.
+  
+- MBID operates through three core activities: morphological abstraction, morphological translation, and morphological combination.
 
 
 
-## MBID Architecture
+## MBID ARCHITECTURE
+MBID identifies biological morphological features, abstracts their transferable characteristics, translates them into engineering-relevant morphological domains, and enables their visualisation, selection, and combination.
+
+The four morphological domains are:
+**Surfaces | Cellular Structures | Shapes | Cross-sections**
+
 <img width="2196" height="660" alt="mbid-archi" src="https://github.com/user-attachments/assets/d477f5c5-0739-4735-9389-fb191d0e4b75" />
-(Will be updated shortly)
+
+**Workflow:**
+Identification → Abstraction → Translation & Classification → Visualization → Selection → Combination → Concept Generation
 
 
 
+## BIKAS
+**BIKAS (Biologically Inspired Knowledge Acquisition and Simulacrum)** is the morphological knowledge base within MBID.
+BIKAS contains biological morphological features that are abstracted, classified, and mapped to engineering-relevant geometric and architectural designations. It currently comprises 57 classified morphological features.
+
+BIKAS connects:
+**Morphological features → Structural architectures → Embodiment functions → Biological tissues**
+
+Key information includes:
+- Biological feature
+- Morphological characteristic
+- Embodiment function
+- Integrated structure
+- Structural strategy
+- Morphological domain
+- Biological tissue
+
+## HOW MBID WORKS
+- **Extract** biological morphological information
+- **Abstract** transferable morphological characteristics
+- **Translate, Classify & Map** morphology into engineering domains
+- **Visualise & Explore** through BIKAS
+- **Select** relevant morphological features
+- **Combine** features to generate multifunctional concepts
 
 
 
-## BIKAS - Biologically Inspired Knowledge Acquisition and Simulacrum (Domain Integration Knowledge Map)
-(Will be updated shortly)
+## EXAMPLES
 
-
-
-
-
-
-## How MBID works
-(Will be updated shortly)
-
-
-
-
-
-
-## Example
 <img width="1736" height="966" alt="example-1" src="https://github.com/user-attachments/assets/180b3220-16d1-4ec1-a6f7-fc642c0b4a39" />
+
+MBID has been applied to:
+
+- **Medical devices**: painless mesoscale suture pins
+- **Passive robotic mobility**: non-pneumatic tyres
+- **Thermal management**: heat-absorbing, low-pressure-drop mesoscale architectures
+- **Wearable devices**: marine-adaptive skins and impact-protection helmets
+
+
+## APPLICATIONS
+
+<img width="2102" height="678" alt="appli" src="https://github.com/user-attachments/assets/48197f84-4a87-4e31-8645-f7855adf8e7e" />
+
+
+**MBID** applies to multifunctional physical systems, particularly:
+
+**Micro-to-mesoscale devices | Medical devices | Soft robotics | Wearables | Thermal management | Extreme-environment systems**
+
+
+
+
+## WEB APPLICATION
 (Will be updated shortly)
 
 
 
-## Applications
-(Will be updated shortly)
-
-
-
-## Web Application
-(Will be updated shortly)
-
-
-
-
-
-
-## AI-assisted Development
+## AI-ASSISTED DEVELOPMENT
 (Will be updated shortly)
 
 
