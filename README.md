@@ -92,7 +92,8 @@ Figure references:
 
 ## WEB APPLICATION
 
-**Try MBID**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
+- **Web Application**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
+- **DOI**: [Zenodo DOI](https://doi.org/10.5281/zenodo.21969289)
 
 The MBID web application enables users to:
 - Apply MBID to design problems
@@ -122,10 +123,6 @@ The long-term direction is an AI-agent-assisted MBID workflow supporting biologi
 - AI-assisted literature extraction for automated BIKAS expansion
 - Improved visualization
 - AI-agent-assisted design workflow
-
-
-## CITATION
-- DOI: https://doi.org/10.5281/zenodo.21969289
 
 ## RELATED PUBLICATIONS
 
