@@ -91,6 +91,9 @@ Figure references:
 
 
 ## WEB APPLICATION
+
+**Try MBID**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
+
 The MBID web application enables users to:
 - Apply MBID to design problems
 - Explore the BIKAS knowledge base
