@@ -126,3 +126,16 @@ The long-term direction is an AI-agent-assisted MBID workflow supporting biologi
 
 ## CITATION
 - DOI: https://doi.org/10.5281/zenodo.21969289
+
+## RELATED PUBLICATIONS
+
+- Velivela, P.T., 2024. Multifunctional Bio-inspired Design (MBID): A Rapid Idea Generation System for Multifunctional Bio-inspired Designs. McGill University (Canada) - (PhD Thesis). Link: https://escholarship.mcgill.ca/concern/theses/pg15bm47s
+- Velivela, P.T., Ridard, A. and Zhao, Y.F., 2024. Parameters for selecting biological features in multifunctional bio-inspired design: a convergent evolution approach. Bioinspiration & Biomimetics. DOI: 10.1088/1748-3190/ad3ed3 
+- Velivela, P.T. and Zhao, Y.F., 2024. BIKAS: Bio-Inspired Knowledge Acquisition and Simulacrum—A Knowledge Database to Support Multifunctional Design Concept Generation. Data Intelligence, pp.1-28. DOI: https://doi.org/10.1162/dint_a_00240
+- Velivela, P.T. and Zhao, Y.F., 2023. Supporting Multifunctional Bio-Inspired Design Concept Generation through Case-Based Expandable Domain Integrated Design (xDID) Model. Designs, 7(4), p.86. DOI: https://doi.org/10.3390/designs7040086
+- Velivela, P.T. and Zhao, Y.F., 2022. A Comparative Analysis of the State-of-the-Art Methods for Multifunctional Bio-Inspired Design and an Introduction to Domain Integrated Design (DID). Designs, 6(6), p.120. DOI: https://doi.org/10.3390/designs6060120 **(Feature paper)**
+- Velivela, P.T., Letov, N., Liu, Y. and Zhao, Y.F., 2021. Application of domain integrated design methodology for bio-inspired design-a case study of suture pin design. Proceedings of the Design Society, 1, pp.487-496. DOI: 10.1017/pds.2021.49
+- Sarabhai S, Velivela PT, Zhao YF, Sanchez F, Kibsey M. Comparative Study of the Flow and Thermal Characteristics of Non-Stochastic Lattice and Bio-Inspired Multi-Scale Structures for Gas Turbine Engine Applications. InTurbo Expo: Power for Land, Sea, and Air 2023 Jun 26 (Vol. 87066, p. V11BT23A011). American Society of Mechanical Engineers. DOI: https://doi.org/10.1115/GT2023-103790
+- Velivela, P.T., Letov, N. and Zhao, Y.F., 2025. Meta-level design parameters for bio-inspired impact resistance: a case study in helmet design. Proceedings of the Design Society, 5, pp.2381-2390. DOI: https://doi.org/10.1017/pds.2025.10252
+- Velivela, P.T., Letov, N., Kong, L. and Zhao, Y.F., 2023. A Case Study of Multifunctional Non-Pneumatic Tire Design For The Validation of Meta-Level Design Parameter In Domain Integrated Design (DID) Method. Proceedings of the Design Society, 3, pp.39-48. DOI: 10.1017/pds.2023.52
+
