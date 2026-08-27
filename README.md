@@ -119,7 +119,7 @@ The long-term direction is an AI-agent-assisted MBID workflow supporting biologi
 - Example applications
 - Research publications 
   
-#### @In development
+#### @Extension and in development
 - AI-assisted literature extraction for automated BIKAS expansion
 - Improved visualization
 - AI-agent-assisted design workflow
