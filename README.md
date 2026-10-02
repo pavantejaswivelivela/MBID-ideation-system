@@ -4,6 +4,18 @@
 
 **MBID (Multifunctional Bio-inspired Design)** is a biological morphology-informed, rule-based product design and engineering framework for systematically generating multifunctional bio-inspired physically intelligent engineering concepts that can be translated into technically feasible products.
 
+## WEB APPLICATION
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21969289.svg)](https://doi.org/10.5281/zenodo.21969289)
+
+- **Web Application**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
+
+The MBID web application enables users to:
+- Apply MBID to design problems
+- Explore the BIKAS knowledge base
+- Navigate morphological relationships
+- Examine biological and engineering interpretations
+- Select and compare morphological features
+- Generate candidate concepts
 
 ## WHY MBID
 - Modern products, particularly medical devices and advanced engineering systems, increasingly require **multifunctionality, lightweight construction, resource efficiency, and high performance** within tight spatial and operational constraints.
@@ -80,28 +92,13 @@ MBID has been applied to:
 
 Figure references:
 
-- Chilean physicists, pioneers in microrobots design” –  Source: https://activematter.dfi.uchile.cl/en/2265/ 
+- Chilean physicists, pioneers in microrobots design –  Source: https://activematter.dfi.uchile.cl/en/2265/ 
 - Fras, J., Noh, Y., Macias, M., Wurdemann, H. and Althoefer, K., 2018, May. Bio-inspired octopus robot based on novel soft fluidic actuator. In 2018 IEEE international conference on robotics and automation (ICRA) (pp. 1583-1588). IEEE.
 - Metamaterials – Source: https://mm.ethz.ch/research-overview/metamaterials.html 
 - Watchman TM Implant Animation – Source: https://www.bch.org/media/video-center/bch-news-segments/watchman-implant-animation/ 
 - DLR - Like the surface of the Moon – robotic exploration of extreme environments on Mount Etna – Source: https://www.dlr.de/en/latest/news/2016/20160923_like-the-surface-of-the-moon-robotic-exploration-of-extreme-environments-on-mount-etna_19403 
 
 
-
-
-
-## WEB APPLICATION
-
-- **Web Application**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
-- **DOI**: [Zenodo DOI](https://doi.org/10.5281/zenodo.21969289)
-
-The MBID web application enables users to:
-- Apply MBID to design problems
-- Explore the BIKAS knowledge base
-- Navigate morphological relationships
-- Examine biological and engineering interpretations
-- Select and compare morphological features
-- Generate candidate concepts
 
 
 ## AI-ASSISTED DEVELOPMENT
