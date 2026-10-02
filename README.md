@@ -4,10 +4,9 @@
 
 **MBID (Multifunctional Bio-inspired Design)** is a biological morphology-informed, rule-based product design and engineering framework for systematically generating multifunctional bio-inspired physically intelligent engineering concepts that can be translated into technically feasible products.
 
-## WEB APPLICATION
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21969289.svg)](https://doi.org/10.5281/zenodo.21969289)
+**View Web Application**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
 
-- **Web Application**: [MBID Web Application](https://pavantejaswivelivela.github.io/MBID-ideation-system/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21969289.svg)](https://doi.org/10.5281/zenodo.21969289)
 
 The MBID web application enables users to:
 - Apply MBID to design problems
@@ -82,30 +81,17 @@ MBID has been applied to:
 - **Thermal management**: heat-absorbing, low-pressure-drop mesoscale architectures
 - **Wearable devices**: marine-adaptive skins and impact-protection helmets
 
-
 ## APPLICATIONS
-<img width="2020" height="470" alt="appli3" src="https://github.com/user-attachments/assets/faa30000-573c-4063-b012-86978963d7e4" />
+<img width="2112" height="406" alt="appli4" src="https://github.com/user-attachments/assets/c70fc462-1c96-475f-bcf0-716042266692" />
 
 **MBID** applies to multifunctional physical systems, particularly:
 
 **Micro-to-mesoscale devices | Medical devices | Soft robotics | Wearables | Architected Materials & Metamaterials | Extreme-environment systems**
 
-Figure references:
-
-- Chilean physicists, pioneers in microrobots design –  Source: https://activematter.dfi.uchile.cl/en/2265/ 
-- Fras, J., Noh, Y., Macias, M., Wurdemann, H. and Althoefer, K., 2018, May. Bio-inspired octopus robot based on novel soft fluidic actuator. In 2018 IEEE international conference on robotics and automation (ICRA) (pp. 1583-1588). IEEE.
-- Metamaterials – Source: https://mm.ethz.ch/research-overview/metamaterials.html 
-- Watchman TM Implant Animation – Source: https://www.bch.org/media/video-center/bch-news-segments/watchman-implant-animation/ 
-- DLR - Like the surface of the Moon – robotic exploration of extreme environments on Mount Etna – Source: https://www.dlr.de/en/latest/news/2016/20160923_like-the-surface-of-the-moon-robotic-exploration-of-extreme-environments-on-mount-etna_19403 
-
-
-
-
 ## AI-ASSISTED DEVELOPMENT
 AI-assisted extraction and structuring of biological morphological information are being investigated to scale the manually curated BIKAS knowledge base.
 
 The long-term direction is an AI-agent-assisted MBID workflow supporting biological information extraction, morphological reasoning, knowledge-base expansion, and engineering concept generation.
-
 
 ## RESEARCH STATUS / ROADMAP
 #### @Completed
@@ -119,6 +105,13 @@ The long-term direction is an AI-agent-assisted MBID workflow supporting biologi
 #### @Extension and in development
 - AI-assisted literature extraction for automated BIKAS expansion
 - AI-agent-assisted design workflow
+
+References:
+- Chilean physicists, pioneers in microrobots design –  Source: https://activematter.dfi.uchile.cl/en/2265/ 
+- Fras, J., Noh, Y., Macias, M., Wurdemann, H. and Althoefer, K., 2018, May. Bio-inspired octopus robot based on novel soft fluidic actuator. In 2018 IEEE international conference on robotics and automation (ICRA) (pp. 1583-1588). IEEE.
+- Metamaterials – Source: https://mm.ethz.ch/research-overview/metamaterials.html 
+- Watchman TM Implant Animation – Source: https://www.bch.org/media/video-center/bch-news-segments/watchman-implant-animation/ 
+- DLR - Like the surface of the Moon – robotic exploration of extreme environments on Mount Etna – Source: https://www.dlr.de/en/latest/news/2016/20160923_like-the-surface-of-the-moon-robotic-exploration-of-extreme-environments-on-mount-etna_19403 
 
 ## RELATED PUBLICATIONS
 
