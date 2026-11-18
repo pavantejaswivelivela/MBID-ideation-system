@@ -1,7 +1,7 @@
 function createGraph1(selector, dataFilePath){
 
 ///select the division in the html file
-const canvas = d3.select(".canva-graph1");
+const canvas = d3.select(selector);
 
 // Define initial width and height for your SVG based on the D3 example's 'width'.
 // The height will be dynamically calculated by the D3 tree layout.
@@ -15,7 +15,7 @@ const svg = canvas.append("svg")
 
 
 //Stratify the data for 1st graph
-d3.json("Surfaces-json.txt").then(function(graph1data) { // Corrected filename here
+d3.json(dataFilePath).then(function(graph1data) {
     // Log the raw flat data to see how D3 parsed it
     console.log("Flat Data from JSON:", graph1data); // Corrected log message
 
@@ -108,7 +108,10 @@ d3.json("Surfaces-json.txt").then(function(graph1data) { // Corrected filename h
         .style("font-size", "8px"); // Increased font size slightly for better readability
 
 }).catch(function(error) {
-    console.error("Error loading or processing JSON:", error); // Corrected log message
+    console.error(`Error loading or processing ${dataFilePath}:`, error);
+    canvas.append("p")
+        .attr("class", "graph-error")
+        .text("Could not render this graph. Serve the page over HTTP and check the browser console for details.");
 });
 }
 createGraph1(".canva-graph1", "Surfaces-json.txt");
@@ -118,7 +121,7 @@ createGraph1(".canva-graph1", "Surfaces-json.txt");
 //function to create graph 2
 function createGraph2(selector, dataFilePath){
 
-const canvas = d3.select(".canva-graph2")
+const canvas = d3.select(selector)
 
 // Define initial width and height for your SVG based on the D3 example's 'width'.
 // The height will be dynamically calculated by the D3 tree layout.
@@ -130,7 +133,7 @@ const svg = canvas.append("svg")
     .attr("height", initialHeight)
 
 //Stratify the data for 1st graph
-d3.json("Surfaces-IS-SC-json.txt").then(function(graph2data) { // Corrected filename here
+d3.json(dataFilePath).then(function(graph2data) {
     // Log the raw flat data to see how D3 parsed it
     console.log("Flat Data from JSON:", graph2data); // Corrected log message
 
@@ -222,7 +225,10 @@ d3.json("Surfaces-IS-SC-json.txt").then(function(graph2data) { // Corrected file
         .style("font-size", "8px"); // Increased font size slightly for better readability
 
 }).catch(function(error) {
-    console.error("Error loading or processing JSON:", error); // Corrected log message
+    console.error(`Error loading or processing ${dataFilePath}:`, error);
+    canvas.append("p")
+        .attr("class", "graph-error")
+        .text("Could not render this graph. Serve the page over HTTP and check the browser console for details.");
 })
 }
-createGraph2(".canva-graph2", "Surfaces-IS-SC.txt");
+createGraph2(".canva-graph2", "Surfaces-IS-SC-json.txt");

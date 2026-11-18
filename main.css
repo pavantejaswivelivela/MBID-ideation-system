@@ -123,9 +123,10 @@ html, body {
 .navbar {
   margin: 11px;
   padding: 0;
-  font-size: 20px;
-  color: white;
+  font-size: 16px;
+  color: aqua;
   background-color: black;
+  text-decoration: none;
   list-style-type: none;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -139,12 +140,12 @@ html, body {
 
 .navbar li a {
   display: inline-block;
-  color: white;
+  color: aqua;
   text-decoration: none;
 }
 
 .navbar li a:hover {
-  background-color: #636262;
+  background-color: transparent;
 }
 
 ul {
